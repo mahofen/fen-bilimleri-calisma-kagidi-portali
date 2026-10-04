@@ -53,6 +53,7 @@ def generate():
     question_count = int(data.get("question_count", 1))
     custom_context = data.get("custom_context", "")
     template_style = data.get("template_style", "random")
+    advanced_options = data.get("advanced_options", None)
 
     if not learning_outcome:
         return jsonify({"success": False, "error": "Öğrenme çıktısı boş olamaz."}), 400
@@ -67,7 +68,8 @@ def generate():
             difficulty=difficulty,
             question_count=question_count,
             custom_context=custom_context,
-            template_style=template_style
+            template_style=template_style,
+            advanced_options=advanced_options
         )
         return jsonify({"success": True, "content": content_json})
     except Exception as e:

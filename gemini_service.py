@@ -51,7 +51,8 @@ class GeminiAssessmentService:
         difficulty: str = "Orta",
         question_count: int = 1,
         custom_context: str = "",
-        template_style: str = "random"
+        template_style: str = "random",
+        advanced_options: dict = None
     ) -> dict:
         """
         Antigravity Fen Bilimleri Çalışma Kâğıdı Yapı Standardizasyonu Şartnamesine
@@ -247,6 +248,23 @@ Yalnızca ve yalnızca yukarıdaki JSON formatında çıktı ver. Markdown kod b
 DİKKAT: 1. Bağlam metnini (`context.text`), 2. Veri tablosunu (`dataSet`), 3. Keşfet, 4. Açıkla-Kanıtla, 5. Araştır ve 6. Çözüm Üret görevlerini KESİNLİKLE kullanıcının bu özel isteğine, karakterlerine, mekanına veya hikayesine tam olarak uyarlayarak kurgula. Ancak öğrenme çıktısının bilimsel derinliğini ve 6 bölümlü şablon iskeletini eksiksiz koru.
 """
 
+        advanced_instruction = ""
+        if advanced_options and isinstance(advanced_options, dict):
+            adv_lines = []
+            if advanced_options.get("theme") and advanced_options["theme"] != "auto":
+                adv_lines.append(f"- Bağlam Dünyası ve Tema Tercihi: {advanced_options['theme']}")
+            if advanced_options.get("skill_focus") and advanced_options["skill_focus"] != "auto":
+                adv_lines.append(f"- Öne Çıkarılacak Maarif Alan Becerisi: {advanced_options['skill_focus']}")
+            if advanced_options.get("differentiation") and advanced_options["differentiation"] != "auto":
+                adv_lines.append(f"- Farklılaştırılmış Öğrenci Düzeyi: {advanced_options['differentiation']}")
+            if advanced_options.get("question_format") and advanced_options["question_format"] != "auto":
+                adv_lines.append(f"- Özel Soru Formatı Tercihi: {advanced_options['question_format']}")
+            if advanced_options.get("target_duration") and advanced_options["target_duration"] != "auto":
+                adv_lines.append(f"- Hedef Etkinlik Süresi: {advanced_options['target_duration']}")
+            
+            if adv_lines:
+                advanced_instruction = "\nGELİŞMİŞ PEDAGOJİK SEÇENEKLER (BETA):\n" + "\n".join(adv_lines) + "\n"
+
         prompt = f"""
 Aşağıdaki parametrelere göre 6 Modüllü MEB TYMM Şablon formatında tam bir çalışma kâğıdı üret:
 
@@ -256,6 +274,7 @@ Aşağıdaki parametrelere göre 6 Modüllü MEB TYMM Şablon formatında tam bi
 - Öğrenme Çıktısı: {learning_outcome}
 - Zorluk Seviyesi: {difficulty}
 {custom_context_instruction}
+{advanced_instruction}
 
 Lütfen 6 modüllü şablon iskeletini bozmadan, öğrenci ve öğretmen bölümlerini eksiksiz içeren JSON nesnesini döndür.
 """
