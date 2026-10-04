@@ -5,15 +5,26 @@ from dotenv import load_dotenv
 from gemini_service import GeminiAssessmentService
 from curriculum_data import GRADE_5_CURRICULUM
 
-load_dotenv()
+# Mutlak yol ile .env dosyasını yükle
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+load_dotenv(dotenv_path=env_path, override=True)
 
 app = Flask(__name__)
 service = None
 
-try:
-    service = GeminiAssessmentService()
-except Exception as e:
-    print(f"Uyarı: Gemini servisi başlatılamadı: {e}")
+def get_service():
+    global service
+    if service is None:
+        try:
+            load_dotenv(dotenv_path=env_path, override=True)
+            service = GeminiAssessmentService()
+        except Exception as e:
+            print(f"Uyarı: Gemini servisi başlatılamadı: {e}")
+            service = None
+    return service
+
+# Başlangıçta servisi yüklemeyi dene
+get_service()
 
 @app.route("/")
 def index():
@@ -25,7 +36,8 @@ def get_curriculum():
 
 @app.route("/api/generate", methods=["POST"])
 def generate():
-    if not service:
+    srv = get_service()
+    if not srv:
         return jsonify({
             "success": False,
             "error": "Gemini API servisi başlatılamadı. Lütfen .env dosyasındaki GEMINI_API_KEY anahtarını kontrol edin."
@@ -46,7 +58,7 @@ def generate():
         return jsonify({"success": False, "error": "Öğrenme çıktısı boş olamaz."}), 400
 
     try:
-        content_json = service.generate_assessment(
+        content_json = srv.generate_assessment(
             grade_level=grade_level,
             subject=subject,
             learning_area=learning_area,

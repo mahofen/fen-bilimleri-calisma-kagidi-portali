@@ -7,10 +7,16 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-load_dotenv()
+# .env dosyasını mutlak yol ile garanti yükle
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+load_dotenv(dotenv_path=env_path, override=True)
 
 class GeminiAssessmentService:
     def __init__(self):
+        # Tekrar kontrol et
+        if not os.getenv("GEMINI_API_KEY"):
+            load_dotenv(dotenv_path=env_path, override=True)
+        
         self.api_key = os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY bulunamadı! Lütfen .env dosyanızı kontrol edin.")
