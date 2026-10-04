@@ -1,0 +1,555 @@
+=== Sayfa 13 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+13
+oluşturmaktadır. TYMM’de karar verme, problem çözme ve eleştirel düşünme olmak üzere üç üst düzey 
+düşünme becerisi tanımlanmıştır.
+Alan becerileri, kavramsal becerileri ve/veya alana özgü bütünleşik becerileri kapsayacak şekilde yapılan -
+dırılmıştır. Bu yönüyle alan becerileri, kavramsal becerileri ve/veya alana özgü bütünleşik becerileri kapsar 
+ve bu becerilerin süreç bileşenlerini de içerir.
+TYMM’de öğrenme çıktıları, bilgi ve becerinin birbirinden ayrılmaz bir bütün oluşturduğu dinamik yapılardır. 
+Öğretim programlarının temel bileşenlerinden olan içerik çerçevesi, öğrencinin sahip olması gereken sağ -
+lam, güvenilir ve geçerli bilgi kümesini temsil eder. Bu çerçeve disipline özgü, disiplinler arası, epistemik 
+ve işlemsel bilgi türlerini bir arada barındıran zengin bir yapıdır. Modelde bilgi, beceri kazanmak için gerekli 
+zemini hazırlarken beceriler de bu bilgiye ulaşmada ve yeni bilgiyi üretmede temel bir araç olarak kullanılır.
+2.3. BAĞLAM TEMELLİ SORU NEDİR?
+Bağlam temelli sorular, eğitimde son yıllarda daha sık kullanılmaya başlanmış olsa da yeni bir soru türü 
+değildir. Bu tür soruların kökeni 20. yüzyılın ortalarına kadar uzanmaktadır. Eğitimde bağlama dayalı soru 
+kullanımı ilk olarak 1940’lı ve 1950’li yıllarda yorumlayıcı alıştırmalar, metne dayalı sorular ve problem senar -
+yoları biçiminde ortaya çıkmıştır (Ebel, 1951). Bu dönemde araştırmacılar, öğrencilerin yalnızca hatırlamaya 
+dayalı sorularla öğrenmeyi yeterince yansıtamadıklarını öne sürmüşlerdir. Bunun yerine öğrencinin bilgi -
+yi anlamlandırmasını ve kullanmasını sağlayan ölçme araçlarının geliştirilmesi gerektiğini savunmuşlardır 
+(Ebel, 1951; Szeberenyi & Tigyi, 1987; Wainer & Kiely, 1971). Buna bağlı olarak da farklı soru tasarımları ortaya 
+çıkmıştır. Özellikle 1950’lerden itibaren
+• metin temelli okuduğunu anlama soruları,
+• fen ve matematikte problem durumuna dayalı sorular,
+• mesleki alanlardaki uygulama testleri
+bağlam temelli soru anlayışının erken örnekleri olarak kullanılmaya başlanmıştır.
+Bağlam temelli soruları ifade etmek için araştırmacılar tarafından kullanılan farklı adlandırmalar bulun -
+maktadır. Literatürde bu sorular tek bir kavram altında toplanmamıştır. Araştırmacılar, bağlam temelli soru 
+tasarımını kendi kuramsal anlayışlarına ve ölçme amaçlarına göre farklı adlarla ifade etmişlerdir. Haladyna 
+(1992), “Context-Dependent Item Sets” başlıklı çalışmasında konuyla ilgili literatüre (Ebel, 1951; Cureton, 
+1965; Wesman 1971; Wainer & Kiely, 1971; Lee & Frisbie, 1999; Szeberenyi & Tigyi, 1987) belirli bir bağlama 
+özgü soru grubunu/kümesini ifade etmek için kullanılan terimleri şöyle sıralamaktadır: “yorumlama alıştır -
+maları”, “senaryolar”, “madde takımları”, “süper maddeler” ve “uygulama testi”. Bunlarla birlikte bazı araştır -
+macılar (Wilson & Adams, 1995; Yen, 1993; Ferrara, Huynh, & Baghi, 1997) tarafından ise “madde demetleri”, 
+“pasajlar” ve “soru kümeleri” gibi adlandırmalar kullanılmıştır. Bu çeşitlilik, bağlam temelli soru tasarımının 
+tek bir disipline, amaç türüne ya da ölçme formatına indirgenemeyecek kadar esnek bir yapıya sahip ol -
+duğunu göstermektedir. Bu kavramların farklı biçimlerde adlandırılmasının temel nedeni, araştırmacıların 
+bağlam temelli soruyu farklı açılardan ele almalarıdır. Bazı araştırmacılar bu soruları bilişsel yapısına (yo -
+rumlama, sorgulama, problem çözme), bazıları format yapısına (soru kümesi, madde takımı), bazıları ise 
+ölçme ve analiz varsayımlarına (yerel bağımlılık, madde gruplama, puanlama) odaklanarak adlandırmıştır. 
+Bu nedenle farklı terimler kullanılmış olsa da söz konusu adlandırmaların ortak özelliği, anlamlı bir bağlam 
+içinde farklı soru formatlarıyla birden fazla bilişsel işlemin birlikte yapılmasını gerektirmesidir.
+Bağlam temelli soruların günümüzde daha çok öne çıkmasının nedeni, ülkelerin eğitim sistemlerindeki he -
+deflerin değişmesidir. Günümüzde eğitimden beklenen yalnızca bilgi aktarımı değil öğrencilere eleştirel 
+
+=== Sayfa 14 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+14
+düşünme, problem çözme, yorum yapma ve bilgiyi yeni durumlara aktarma becerileri de kazandırmaktır. 
+Bu değişimle birlikte bağlam temelli sorular, özellikle Uluslararası Öğrenci Değerlendirme Programı [Prog -
+ramme for International Student Assessment (PISA)] ve Uluslararası Matematik ve Fen Eğilimleri Araştır -
+ması [Trends in International Mathematics and Science Study (TIMSS)] gibi uluslararası geniş ölçekli sınav -
+larla daha görünür ve merkezî bir rol kazanmıştır. Dolayısıyla bağlam temelli sorular kavramsal ve tarihsel 
+olarak günümüzde ortaya çıkmış değildir. Ancak eğitim hedeflerinin değişmesiyle birlikte daha sistematik, 
+yaygın ve bilinçli biçimde kullanılmaya başlanmıştır.
+Öğretim programlarında becerilerin ön plana çıkması ve ölçme süreçlerinde kullanılması, bağlam temelli 
+soruların önemini artırmıştır. Bu doğrultuda bağlam temelli sorular, TYMM’de öğrencinin zihinsel ve sosyal 
+becerilerini günlük hayatta sergileyebildiği birer beceri kanıtı işlevi görmektedir. Çünkü yapılan araştırma -
+larda da vurgulandığı üzere bağlama bağlı soru setleri, bir kavramın gerçek dünyada nasıl ortaya çıktığını 
+daha yakından yansıtarak birbiriyle ilişkili görev ve becerilerin ölçülmesini sağlar (Keller vd., 2003). Ayrıca 
+bağlam temelli soruların analitik düşünme ve problem çözme becerileri de dâhil olmak üzere bireylerin 
+bilgiyi uygulama becerilerini değerlendirmede çok yönlü bir ölçme aracı olduğu kanıtlanmıştır (Allen & Su -
+dweeks, 2001).
+Soruları belirli bir senaryo, durum, grafik, metin, tablo gibi materyallere dayandırarak yapılandırmak, so -
+yut kavramları somutlaştırarak öğrencilerin uygulama becerilerini ölçmeyi ve aynı zamanda öğrencilerin 
+motivasyonunu ve ilgisini artırmayı amaçlar (Ahmed & Pollitt, 2007). Bu çerçevede bağlam temelli sorular, 
+yapısı gereği ölçme işleminin bütüncül bir bağlam üzerinden gerçekleştirilmesini sağlar. Bu sayede öğren -
+cilerin yalnızca bilgiyi hatırlamaları değil aynı zamanda onu yeni durumlara uygulamaları, yorumlamaları ve 
+problem çözme süreçlerine dâhil etmeleri hedeflenir. Araştırmacılara göre bağlam temelli sorular, özel -
+likle üst düzey bilişsel süreçlerin ve becerilerin ölçülmesinde oldukça etkilidir (Allen & Sudweeks, 2001; 
+Haladyna, 1992).
+PISA, TIMSS gibi uluslararası öğrenci değerlendirme programlarında öğrencilerin yalnızca bilgi düzeyleri -
+ni değil öğrendikleri bilgiyi günlük hayat durumlarında uygulama ve çözüm üretme becerilerini de değer -
+lendirmek üzere sorular tasarlandığı bilinmektedir. PISA özellikle öğrencilerin okulda öğrendikleri bilgiyi 
+günlük hayat bağlamında kullanma yeteneğini ölçmeye odaklanır. Bu nedenle sorular, öğrencilerin günlük 
+hayat, toplumsal süreçler veya mesleki alanlarda bilgi ve beceriyi nasıl kullandıklarını sorgular. TIMSS ise 
+problem çözme ve kavramlar arası ilişki kurma becerilerini destekleyen bağlamsal soru yapılarına yer verir. 
+Bu yaklaşım, sadece içerik bilgisini değil aynı zamanda öğrencilerin bilgiyi uygulama ve muhakeme beceri -
+lerini ölçmeyi amaçlayan bir değerlendirme anlayışıyla örtüşür.
+Özellikle vurgulanması gereken nokta, bağlam temelli soruların tasarımının ölçülecek özelliğe, öğrenme 
+çıktısına ve süreç bileşenine bağlı olarak değişiklik gösterebilmesidir. Bu nedenle her bağlam temelli soru 
+tasarımı soru seti biçiminde olmak zorunda değildir. Bir bağlamdan bir veya birden fazla soru üretilebilir. 
+Bununla birlikte alan yazında bağlam temelli soru tasarımı sürecinde genellikle bir bağlamdan (metin, gör -
+sel, grafik vb.) birden fazla soru üretildiği vurgulanmaktadır.
+Bağlam temelli soruların bir soru tipi/formatı değil bir tasarım yaklaşımı olduğu da unutulmamalıdır. Bu ne -
+denle bağlam temelli sorular yalnızca çoktan seçmeli soru tipinde olmak zorunda değildir. Bağlam temelli 
+olma durumu, sorunun formatından çok nasıl bir bağlam içinde yapılandırıldığı ve öğrenciden ne tür bir 
+bilişsel işlem talep ettiği ile ilgilidir.
+
+=== Sayfa 15 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+15
+Bağlam temelli bir soru; öğrencinin metin, problem durumu, veri seti, görsel ya da senaryo gibi anlamlı bir 
+bağlamla karşılaşmasını ve bu bağlamı kullanarak karar vermesini, yorum yapmasını, çözüm üretmesini ya 
+da açıklama getirmesini gerektirir. Dolayısıyla bağlam temelli sorular
+• çoktan seçmeli,
+• uzun yanıtlı,
+• doğru-yanlış,
+• eşleştirme,
+• kısa yanıtlı,
+Bu çeşitlilik, bağlam temelli yaklaşımın esnekliğini ve farklı öğrenme çıktılarının ölçülmesine yönelik uyar -
+lanabilirliğini göstermektedir. Sonuç olarak bağlam temelli olma özelliği, sorunun formatında değil bağlam 
+ile soru arasındaki işlevsel ilişkide ve öğrencinin bilgiyi kullanma biçiminde ortaya çıkar.
+Bu kılavuzda bağlam temelli çoktan seçmeli sorular ele alınmıştır. Becerilerin ölçülmesinde çoktan seçme -
+li soruların tercih edilmesinin çeşitli sebepleri bulunmaktadır. İlk olarak çoktan seçmeli sorular, açık uçlu 
+veya kısa yanıtlı sorulara kıyasla nesnel puanlama olanağı sunduğu için büyük gruplarda güvenilir ve tutarlı 
+ölçme yapılmasına imkân tanır. Açık uçlu ve yapılandırılmış görevler bağlamı daha derinlikli yansıtabilmekle 
+birlikte puanlama sürecinde öznel yargılara, puanlayıcı farklılıklarına ve uygulama maliyetlerine neden ol -
+maktadır. Buna karşılık çoktan seçmeli sorular, bağlam temelli yapı içinde sunulduklarında hem öğrenme 
+çıktılarının hem de süreç bileşenlerinin ölçülebilmesini ve güvenilir sonuçlar elde edilmesini mümkün kılar.
+İkinci olarak bağlam temelli çoktan seçmeli sorular, geçerlik ve güvenirlik arasında dengeli bir çözüm su -
+nar. Bağlam sayesinde soru, yüzeysel veya ezbere dayalı bilgi hatırlamanın ötesine geçerken çoktan seç -
+meli soru formatıyla ölçme sonuçlarının standartlaştırılması ve karşılaştırılması kolaylaşır. Bu özellikler, 
+merkezî sınavlar, geniş ölçekli değerlendirmeler ve izleme çalışmalarında hayati öneme sahiptir. Üçüncü 
+olarak çoktan seçmeli soru formatı öğretmenlerin soru yazma, uygulama ve analiz süreçlerini yö  netmesini 
+kullanışlı hâle getirir. Öğretmenler çoktan seçmeli sorular üzerinden madde güçlüğü, ayırt edicilik, çeldiri -
+cilik gibi psikometrik göstergeleri kolaylıkla inceleyebilir ve sorularını bu göstergelere göre geliştirebilirler. 
+Son olarak bağlam temelli çoktan seçmeli sorular, öğrencilerin yan  lış seçenekler (çeldiriciler) aracılığıyla 
+kavram yanılgılarını belirlemeyi sağlayabilir. Bu yönüyle bağlam temelli çoktan seçmeli sorular tanılayıcı ve 
+geliştirici bir işlevi de yerine getirir. Bu gerekçeler doğrultusunda kılavuzda bağlam temelli soruların çok -
+tan seçmeli formatta nasıl yazılabileceğine odaklanılmaktadır.
+
+=== Sayfa 16 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+16
+2.4. TYMM BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU Y AZIM SÜRECİ
+Bu bölüm, TYMM’nin ölçme ve değerlendirme yaklaşımı doğrultusunda tanımlanan becerilerin bağlam te -
+melli çoktan seçmeli sorularla ölçülmesinde izlenecek adımları kapsamaktadır.
+2.4.1. Bağlamın Kurgulanması
+Bağlam temelli çoktan seçmeli soru yazım süreci, ölçülmesi hedeflenen öğrenme çıktısı ve süreç bileşe -
+ninin doğasına uygun günlük hayat bağlamlarının oluşturulmasıyla başlar. Bağlam kurgusunda seçilen du -
+rumun öğrencinin günlük hayatta karşılaşabileceği gerçek yaşam senaryolarını yansıtmasına ve akademik 
+merakını uyandıracak nitelikte olmasına özen gösterilmelidir. Bağlamda kullanılan dil yapısı, söz varlığı ve 
+cümle uzunluğu; öğrencinin sınıf seviyesine ve bilişsel gelişimine tam uygunluk göstermelidir. Ayrıca kulla -
+nılan matematiksel modeller, terminoloji ve sayısal veriler; öğrencinin hazırbulunuşluk düzeyini aşmama -
+lı, öğrenme çıktısıyla örtüşmeli ve kavram kargaşası oluşturmayacak nitelikte yapılandırılmalıdır. Bağlam 
+yalnızca bir dekor işlevi görmemelidir. Eğer bir soru bağlamdaki metin veya görsel incelenmeden sadece 
+genel kültür veya ön bilgiyle çözülebiliyorsa o bağlam işlevsizdir ve soru yeniden kurgulanmalıdır (Daneman 
+& Hannon, 2001).
+Bağlamlar, yalnızca belirli bir sosyoekonomik çevrenin veya grubun anlayabileceği terimlerden (örneğin 
+golf sporu, borsa işlemleri) seçilmemelidir. Herkesin erişebileceği ortak bağlamlar (okul, park, doğa, alış -
+veriş vb.) tercih edilmelidir. Bağlam, sadece bir hikaye anlatmamalı, öğrenciye gerçek bir disiplin uzmanının 
+(bilim insanı, tarihçi, mühendis vb.) karşılaşabileceği türden “karmaşık ve yapılandırılmamış” bir görev de 
+sunmalıdır (Wiggins, 1998).
+Yazar, bağlamı oluşturduktan sonra bağlamın işlevselliğini kontrol etmelidir. Bu amaçla şu soru sorulabi -
+lir: “Öğrenci bu metni veya görseli incelemeden, sadece ön bilgisiyle veya seçeneklerden giderek soruyu 
+ce vaplayabilir mi?” Eğer cevap “evet” ise bağlam işlevsizdir ve duruma göre bağlam ve/veya soru yeniden 
+kurgulanmalıdır. 
+Bağlam Oluşturmak için Kullanılabilecek Kaynaklar
+Yazarlar, sadece kurgusal metinlere bağlı kalmak yerine aşağıdaki stratejik veri kaynaklarını ve disipline 
+özgü noktaları kullanarak bağlamlarını yapılandırabilir.
+1. Bilimsel ve T eknik Veri Kaynakları (Kanıta Dayalı Bağlamlar): Fen bilimleri, matematik, coğrafya gibi 
+disiplinlerde bağlamın gücü kullanılan verinin gerçekliğinden gelir.
+• Küresel Veri Bankaları (NASA, FAO, Dünya Bankası): İklim değişikliği senaryoları, dünya gıda fi -
+yatları endeksi veya ülkelerin enerji tüketim verileri soru uyarıcısı olarak kullanılabilir.
+• Resmî İstatistikler (TÜİK, MGM, AFAD): Türkiye’nin demografik yapısındaki değişimler, meteoro -
+lojik uç değerler (aşırı sıcaklıklar, sel frekansları) veya deprem riski tabloları kullanılabilir.
+• Dijital Vatandaşlık ve Büyük Veri: Bir e-ticaret sitesindeki kullanıcı yorumlarının faydalılık oran -
+ları veya bir navigasyon uygulamasının yoğunluk haritaları matematiksel modelleme için kulla -
+nılabilir.
+2. Belge, Kanıt ve Arşiv Odaklı Bağlamlar (Sosyal ve Beşerî Bilimler): Tarih, edebiyat ve sosyal bilgilerde 
+bağlam, öğrenciyi kanıtları sorgulamaya teşvik etmelidir.
+• Müze ve Sanat Katalogları: Bir müze objesinin (bir mühür, para vb.) fiziksel özellikleri üzerinden 
+dönemin ekonomi ve hukuk sistemi hakkında çıkarım yapılması sağlanabilir.
+
+=== Sayfa 17 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+17
+• Birincil ve İkincil Kaynaklar: Tarihsel bir kişiliğin hatıratından bir kesit ile o döneme ait bir gazete 
+haberindeki çelişki sunularak öğrencinin veriyi değerlendirmesi sağlanabilir.
+• Edebî Metinler: Bir yazarın taslak notları veya karalamaları üzerinden metnin ana düşüncesine 
+ulaşma süreci kurgulanabilir.
+3. Değer Temelli ve Etik İkilem Bağlamları (DKAB, Felsefe, Rehberlik): Bu disiplinlerde bağlam, TYMM’nin 
+erdemli insan hedefini bilişsel süreçlerle harmanlamalıdır.
+• Sürdürülebilirlik ve Etik Tüketim: Bir ürünün fiyat avantajı ile üretimindeki etik sorunlar (çevre 
+tahribatı, çocuk işçi kullanımı) arasındaki tercihin gerekçelendirilmesi sağlanabilir.
+• Dijital Etik ve Dezenformasyon: Sosyal medyada hızla yayılan ama bilimsel gerçeklerle çelişen 
+bir haberin öğrenci tarafından doğruluk denetimine tabi tutulması sağlanabilir.
+Bağlamlar, öğrencilerin günlük yaşamlarında karşılaştıkları gerçek olaylardan alınabileceği gibi kurgu ola -
+rak tasarlanmış senaryolar da olabilir. Her iki durumda da belirleyici olan, bağlamın özgünlüğü (authenticity) 
+ve öğrenci için anlamlı olmasıdır. Başka bir deyişle öğrencinin kendini o duruma kolayca yerleştirebilmesi, 
+benzer bir durumla gerçek hayatta karşılaşma olasılığının bulunması gerekmektedir.
+2.4.2. Soru Kökü ve Seçeneklerin Oluşturulması
+Bağlam oluşturulduktan sonraki aşama, ölçülecek öğrenme çıktısına ait süreç bileşenlerinin bağlam içine 
+man tıksal bir akışla yerleştirilmesidir. Bağlam ile öğrenme çıktısı/süreç bileşeni ilişkisi kurulduktan sonra 
+öğrenciyi zihinsel olarak harekete geçirecek olan soru kökü ve seçeneklerin yazımına geçilir. Soru kökünde 
+ölçülecek öğrenme çıktısında yer alan beceriyi harekete geçirecek ifadeler kullanılmalıdır.
+Soruların oluşturulmasında çeldiricilerin niteliği de önemli bir unsurdur. Çeldiriciler, rastgele yanlış ifade -
+lerden değil öğrencilerin konuyu eksik öğrenmesi veya yanlış yapılandırması nedeniyle düşebileceği kav -
+ram ya  nılgılarından ya da hatalı akıl yürütmelerden seçilmelidir (Haladyna & Rodriguez, 2013). Nitelikli bir 
+çeldirici kurgusu, öğrencilerin zihnindeki yanlış yapılandırılmış şemaları ve kavram yanılgılarını hedefleme -
+lidir. Ayrıca “Hepsi”, “Hiçbiri” gibi öğrencinin muhakeme yapmadan eleyebileceği veya seçebileceği seçenek 
+türleri, bağ  lam temelli ölçmede geçerliği düşürdüğü için kullanılmamalıdır. Seçeneklerin uzunluk, dil yapısı 
+ve karma  şıklık bakımından benzer olması gerekir. Doğru seçeneğin diğerlerinden daha uzun veya detaylı 
+olması, öğrenciye doğru cevabı bulduracak görsel bir ipucu sağlar (Haladyna, 1997).
+Bir öğrenme çıktısı tek bir soruyla ölçülmek zorunda değildir. Kullanılabilecek strateji önerileri aşağıda 
+verilmiştir:
+1. Tek bağlam ile tüm süreç bileşenlerinin ölçülmesi:  Öğrenme çıktısına ait her süreç bileşenini ölçmeye 
+yönelik tek bir bağlama bağlı maddeler hazırlanabilir.
+2. Her süreç bileşeni için farklı bağlam kullanımı:  Öğrenme çıktısına ait her süreç bileşeni farklı bağlamlar 
+kullanılarak sorularla ölçülebilir.
+3. Bir bağlam ile en az iki süreç bileşeninin ölçülmesi:  Tek bir bağlam üzerinden hazırlanan sorular, farklı 
+öğrenme çıktılarının süreç bileşenlerini ölçebilir.
+Aynı bağlama bağlı birden fazla soru yazılacaksa sorular arasında ipucu zinciri oluşmamasına dikkat edil -
+melidir (Haladyna & Rodriguez, 2013). Birinci sorunun cevabının ikinci sorunun ön koşulu olduğu veya bir 
+sorudaki bilginin diğer sorunun cevabına ipucu verdiği durumlar, ölçme güvenirliğini zedelediğin  den bu tür 
+kurgulardan kaçınılmalıdır.
+
+=== Sayfa 18 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+18
+2.4.3. Bilişsel Yük
+Soru yazım sürecinin kritik bir aşaması, sorunun dil ve anlatım yönünden bilişsel yük uygunluğunun de -
+netlenmesidir. Soru yazarı; yönerge, metin ve görsellerin ölçülen yapıya doğrudan hizmet edip etmediğini 
+eleştirel bir süzgeçten geçirmelidir. Kafa karıştırıcı anlatımlar, dekoratif görseller ya da içerikle ilgisiz de -
+taylar, çalışma belleği kaynaklarını asıl problem çözme sürecinden uzaklaştırarak gereksiz yük oluşturur 
+(Sweller, 1988). Bu nedenle sorular, çözüm için zorunlu olmayan görsellerden ve karmaşık cümle yapıla -
+rından arındırılarak yalın hâle getirilmelidir (Haladyna & Rodriguez, 2013). Soru, öğrencinin okuma-anlama 
+becerisini değil ilgili disiplindeki (fen, matematik, sosyal bilimler vb.) hedeflenen becerisini ölçmelidir. Bu 
+hedefi desteklemek için görev karmaşıklığı da öğrencinin beklenen performans düzeyiyle uyumlu olma -
+lıdır. Bir öğrenci için uygun olabilecek yüksek düzeyde etkileşimli bir yapı, başka düzeyde bir öğrenci için 
+bilişsel yüke neden olabilir ve gerçek performansın ölçülmesinde hataya yol açabilir. 
+Sorularda anlatım bozukluğu içeren veya birden fazla anlama gelebilecek ifadeler, sorunun geçerliğini teh -
+dit eden unsurlar olarak kabul edilip düzeltilmelidir. Bağlam temelli sorularda karşılaşılan en büyük riskler -
+den biri, öğrencinin hedef beceriyi (örneğin matematiksel akıl yürütme) göstermesini engelleyen “gereksiz 
+bilişsel yük” oluşturulmasıdır. Sweller (1988) tarafından ortaya konan Bilişsel Yük Teorisi’ne göre sorularda 
+çözümle doğrudan ilişkisi olmayan karmaşık dilsel yapılar veya dekoratif görseller, öğrencinin işleyen bel -
+lek kapasitesini tüketir. Ayrıca bağlam kurgulanırken metin ile görsel arasındaki bütünlük, “dikkat bölün -
+mesi etkisini” en aza indirecek şekilde tasarlanmalıdır.
+2.4.4. Soru Yazımına Yönelik Kontrol Listesi
+Soru yazım süreçlerinde soruların teknik, bilimsel ve dilsel standartlara uygunluğu sistematik olarak de -
+netlenmelidir. Aşağıdaki kontrol listesi, soru yazarının hazırladığı taslak soruları değerlendirmesi amacıyla 
+örnek olarak hazırlanmıştır. Denetim sürecine geçmeden önce soruların bu listedeki kriterlere göre göz -
+den geçirilmesi, olası yapısal hataları en aza indirecek ve redaksiyon sürecini hızlandıracaktır.
+Bağlam Temelli Soru Yazımına Yönelik Kontrol Listesi
+Bağlam Adı
+Soru Yazarının Adı
+Beceri Adı
+Süreç Bileşeni
+Kontrol Alanı Kontrol Ölçütü Evet Hayır Açıklama /  
+Düzeltme Notu
+Bağlam Seçimi
+Bağlam, öğrencilerin yaş ve sınıf düzeyine uygun 
+mu?
+Bağlam günlük hayatla ilişkili mi?
+Bağlam karmaşık detaylardan arındı  rılmış mı?
+Bağlam ilgili beceriyi ölçebilecek nitelikte mi?
+Bağlam; kültür, cinsiyet, coğrafi bölge, din, ideo -
+loji gibi unsurlar açısından tarafsız ve ön yargıdan 
+uzak mı?
+
+=== Sayfa 19 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+19
+Soru ve 
+Seçenekler
+Soru açık ve anlaşılır bir dille yazılmış mı?
+Sorunun güçlük düzeyi, öğrenci grubuna  
+uygun mu?
+Soru kökü ve seçenekler, ilgili becerinin 
+süreç bileşenini/bileşenlerini ölçecek şekilde 
+kurgulanmış mı?
+Soru bağlamdan hareketle cevaplanıyor mu?
+Seçenekler ifade tarzı ve biçimsel özellikler bakı -
+mından birbirine benzer mi?
+Çeldiriciler, beceriye ve/veya süreç bileşenine sa -
+hip olmayan öğrencileri çekecek kadar güçlü mü?
+Soru ve seçeneklerde ipucu içeren ifadelerden ka -
+çınılmış mı?
+“Yukarıdakilerin hepsi/hiçbiri” gibi seçeneklerin 
+kullanımından kaçınılmış mı?
+Etik ve Tarafsızlık
+Bağlam veya soru; herhangi bir birey, grup, kül -
+tür, cinsiyet vb. hakkında olumsuz çağrışımlardan 
+arındırılmış mı?
+Kullanılan materyaller (metin, tablo, grafik vb.) pe -
+dagojik ve etik açıdan uygun mu?
+Dil ve Anlatım
+Bağlam, soru kökü ve seçeneklerde noktalama 
+işaretleri ve yazım kurallarına uyulmuş mu?
+Bağlam, soru kökü ve seçenekler anlatım bozuk -
+luklarından arındırılmış mı?
+
+=== Sayfa 20 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+20
+Aşağıdaki akış şeması, bağlam temelli soru yazım sürecinin aşamalarını göstermektedir.
+Başla
+Bitir
+1. Hedefin netleştirilmesi: 
+Ölçülecek öğrenme çıktısı ve süreç bileşeninin belirlenmesi
+2. Günlük hayat ile ilişkili bağlamın oluşturulması
+4. Güçlü çeldiricilerin yapılandırılması
+3. İlgili süreç bileşenlerini ölçmeyi hedefleyen  
+bağlam temelli soruların hazırlanması
+5. Bağlamın işlevselliğinin test edilmesi
+(Bağlam olmadan soru  
+çözülebiliyor mu?)
+Evet Hayır
+Bağlam Temelli Çoktan Seçmeli Soru Yazım Süreci
+
+=== Sayfa 21 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+21
+2.5. BAĞLAM TEMELLİ SORU Y AZIMINDA SIK Y APILAN HA TALARA 
+ÖRNEKLER
+2.5.1. Bağlam Hataları
+Aşağıdaki tablo, soru yazım sürecinde sıkça karşılaşılan bağlam kaynaklı kurgusal hataları önlemek 
+amacıyla hazırlanmıştır. Tabloda hatalı ve doğru yaklaşımlar kurgusal örnekler üzerinden açıklanarak 
+karşılaştırılmıştır.
+HATALI YAKLAŞIM DOĞRU YAKLAŞIM 
+Bir soru metninde “küresel ısınma” anlatılmasına 
+rağmen sorunun “Aşağıdakilerden hangisi bir sera 
+gazıdır?” şeklinde olması
+•  Soruyu cevaplamak için metni okumaya gerek 
+yoktur, bağlam işlevsizdir.
+Sorunun çözümü için bağlamda sunulan grafikteki 
+“yıllık sıcaklık artış oranının” incelenmesi ve yorum -
+lanmasının ölçülmesi
+• Cevap doğrudan bağlama dayalıdır.
+Sorunun çözümü için gereken tüm bilgilerin doğru -
+dan metinde verilmesi
+•  Bu durum, ilgili kazanımı veya alan bilgisini değil 
+yalnızca Türkçe okuma-anlama becerisini ölçer.
+Bağlamda bir olay tasvir edilip (örneğin gökkuşa -
+ğının oluşumu) soru kökünde ise bu olayın bilimsel 
+nedeninin (ışığın kırılması/ tam yansıma) sorulması
+•  Öğrenci bağlamı ve alan bilgisini kullanarak ceva -
+ba ulaşır.
+“Ayşe markete gitti, 3 × 2 + 5 ekmek aldı.” gibi ifade -
+lerin kullanılması
+•  Hayatın olağan akışına aykırı, zorlama ve yapay bir 
+kurgudur.
+“Ayşe, marketteki farklı gramajlardaki ürünlerin bi -
+rim fiyatlarını karşılaştırarak ekonomik bir tercih 
+yapmak istemektedir.” kurgusunun kullanılması
+• Karşılaşılabilecek gerçek bir problem durumudur.
+”Bir aracı kurumda VİOP (Vadeli İşlem ve Opsiyon Pi -
+yasası) hesabı açan Mert, spot piyasa yerine türev 
+piyasaları tercih etmektedir.” gibi spesifik bir alan 
+bilgisi içeren senaryoların kullanılması
+• Sadece belirli bir sosyoekonomik grubun aşina ol -
+duğu, fırsat eşitliğini zedeleyen senaryolardır.
+“Ayşe, odasını yeniden düzenlemek istemekte ve 
+odanın 1/100 ölçekli bir planını çizmektedir...”  ya 
+da “Ayşe, bir tarif için gereken malzeme miktarlarını 
+4 kişilik yerine 10 kişilik olacak şekilde yeniden he -
+saplamaktadır...” gibi durumların kullanılması
+•  Öğrencinin okulda veya günlük yaşamda karşıla -
+şabileceği, kapsayıcı durumlar kurgulanır.
+
+=== Sayfa 22 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+22
+2.5.2. Soru Kökü Hataları
+Aşağıdaki tablo, soru yazım sürecinde soru kökü ile ilgili sıkça yapılan hataları önlemek amacıyla ha -
+zırlanmıştır. Tabloda hatalı ve doğru yaklaşımlar somut örnekler üzerinden gerekçeleri açıklanarak 
+karşılaştırılmıştır.
+HATALI YAKLAŞIM DOĞRU YAKLAŞIM 
+“Aşağıdakilerden hangisinin... olmadığı söylene -
+mez?” şeklinde çift olumsuzluk içeren ifadelerin 
+kullanılması
+•  Zihni gereksiz yere yoran ve ölçme hatasına neden 
+olabilen ifadelerdir.
+Olumsuzluk ifadesinin tek ve net olması, altının çi -
+zilmesi veya kelimenin koyu yazılması
+Örnek: ”... değildir ?”
+•  Zihinsel karmaşayı önleyen net ve anlaşılır bir 
+ifadedir.
+“Sizce bu metnin ana fikri nedir?” gibi öznel ifadeler 
+kullanılması
+•  Cevabı kişiden kişiye değişebilecek, puanlama gü -
+venirliği düşük bir ifadedir.
+“Yazarın bu metinde vurguladığı temel düşünce 
+aşağıdakilerden hangisidir?” şeklinde metne refe -
+rans gösterilmesi
+•  Metne dayalı, tartışmaya kapalı bir nesnellik sağlar.
+Soru kökünde konunun anlatılmaya devam edilmesi
+Örnek: ”Hücre canlılığın temel birimidir, buna 
+göre...”
+•  Sorunun odağını dağıtan ve okuma yükünü artıran 
+gereksiz bir bilgidir.
+Bilgi kısmının bağlama yerleştirilmesi ve soru kökü -
+nün sadece öğrenciyi cevaplamaya yönlendirmesi
+•  Öğrenciyi doğrudan cevabı bulmaya sevk eden iş -
+levsel bir yapıdır.
+Aynı bağlamdan birden fazla soru soru sorulduğu 
+durumda, ikinci veya sonraki soruların kökünde “Bir 
+önceki soruda bulduğunuz sonuca göre...” ifadesi -
+nin kullanılması
+•  İlk soruyu yanlış cevaplayan öğrencinin zincirleme 
+olarak diğerini de yanlış yapmasına yol açar.
+“Verilen grafiğe göre...” denilerek her sorunun ortak 
+veriye dayalı ama birbirinden bağımsız çözülebil -
+mesinin sağlanması
+•  İlk soruyu cevaplayamayan öğrenci, grafiğe bakıp 
+ikinci soruyu cevaplayabilmelidir.
+2.5.3. Seçenek ve Çeldirici Hataları
+Aşağıdaki tablo, çoktan seçmeli sorularda şans başarısı ile test tekniği etkisini en aza indirmek ve çeldiri -
+cinin işlevselliğini artırmak amacıyla hazırlanmıştır. Tabloda seçenek kurgusundaki hatalı ve doğru yakla -
+şımlar somut örnekler üzerinden gerekçeleri açıklanarak karşılaştırılmıştır.
+HATALI YAKLAŞIM DOĞRU YAKLAŞIM 
+“Hepsi”, “Hiçbiri”, “A ve B” gibi seçeneklerin 
+kullanılması
+•  Öğrenci seçeneklerden sadece birinin doğrulu -
+ğundan emin olduğunda diğerlerini analiz etme -
+den doğru cevabı bulabilir veya eleyebilir.
+Her seçeneğin bağımsız bir yargı veya veri içerme -
+si, “Hepsi” gibi kapsayıcı ifadelerden kaçınılması
+•  Test çözme tekniğini değil ilgili kazanımı ve bece -
+riyi ölçmeyi amaçlar.
+
+=== Sayfa 23 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+23
+HATALI YAKLAŞIM DOĞRU YAKLAŞIM 
+Sadece seçenek sayısını tamamlamak için bariz 
+yanlış seçenek yazılması
+•  Konuyu hiç bilmeyen öğrencinin bile elediği, genel 
+kültür bilgisiyle cevaplanabilen ve çekiciliği olma -
+yan seçeneklerdir.
+Çeldiricilerin rastgele yanlışlardan değil konuyu 
+“eksik öğrenen” veya “yanlış yapılandıran” öğrenci -
+nin düşeceği bilimsel yanılgılardan seçilmesi
+•  Bilmeyenlere çekici gelen güçlü çeldiriciler 
+kurgulanır.
+Doğru cevabın diğer seçeneklerden bariz şekilde 
+daha uzun, detaylı ve açıklayıcı olması
+•  Öğrenciye soruyu okumasa bile doğru cevabı işa -
+retlettiren “görsel” bir ipucu sağlar.
+Tüm seçeneklerin kelime sayısı, satır uzunluğu ve 
+dil yapısı bakımından birbirine benzer olması
+•  Cevabın biçimiyle değil sadece içeriğiyle öne çık -
+masını sağlayan adil bir yapıdır.
+Metinde geçen bir cümlenin, kelime grubunun ya da 
+kelimenin aynen seçeneklerde kullanılması
+•  Öğrenci metni anlamasa bile görsel eşleştirme ya -
+parak doğru cevabı bulabilir.
+Seçeneğin metindeki ifadenin aynısı değil anlamca 
+özdeşi (farklı kelimelerle ifade edilmiş hâli) olması
+•  Öğrencinin ezberini değil okuduğunu anlama ve 
+yorumlama becerisini ölçen bir yaklaşımdır.
+2.5.4. Tasarım ve Dizgi Hataları
+Aşağıdaki tablo, soru yazımında bilişsel yükü en aza indirmek ve görselin işlevselliğini artırmak amacıyla 
+hazırlanmıştır. Tabloda görsel tasarım süreçlerindeki hatalı ve doğru yaklaşımlar somut örnekler üzerin -
+den gerekçeleri açıklanarak karşılaştırılmıştır.
+HATALI YAKLAŞIM DOĞRU YAKLAŞIM 
+Metinde yazılanı aynen resmeden görsellerin 
+kullanılması
+Örnek: ”Masanın üzerinde üç elma var ” yazarken ya-
+nına üç elma resmi koymak
+•  Ölçmeye katkısı olmayan, gereksiz bilişsel yük 
+oluşturan bir kullanımdır.
+Görselin metni tekrar etmek yerine metinde yer al -
+mayan yeni bir veriyi sunması
+Örnek: Elmaların görselini değil elmaların “çürüme 
+oranını” gösteren bir görsel sunmak
+•  Sorunun çözümü için görselin okunmasını zorunlu 
+kılan bir tasarımdır.
+Veri etiketlerinin (rakamların) çok küçük olduğu, 
+çizgilerin birbirine girdiği, gereksiz üç boyutlu gra -
+fiklerin kullanılması
+•  Algıyı zorlaştıran ve sorunun odağını bozan görsel 
+gürültü oluşturur.
+Sadece sorunun çözümü için gerekli veriyi içeren, 
+iki boyutlu, sadeleştirilmiş ve net etiketlenmiş gra -
+fiklerin kullanılması
+•  Öğrencinin doğrudan veriye odaklanmasını sağla -
+yan, gözü yormayan temiz bir tasarımdır.
+Metnin bir sayfada, sorunun diğer sayfada yer al -
+ması veya görsel ile soru kökü arasına başka içerik -
+ler bulunması
+•  Öğrencinin dikkatini dağıtan ve sürekli sayfa çe -
+virmeyi gerektiren ergonomik bir hatadır.
+Bağlam (metin/görsel) ve ona ait soruların öğrenci -
+nin gözlerini yormayacak şekilde aynı görsel alanın -
+da bulunması
+•  Odaklanmayı kolaylaştıran, bilişsel yükü azaltan 
+bütüncül bir sunumdur.
+
+=== Sayfa 24 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+24
+2.6. SORU Y AZIM FORMU
+Bağlam temelli ölçme araçlarının geliştirilmesinde süreci doğru analiz etmek amacıyla oluşturulan soru 
+yazım formu, soru yazarının tasarım sürecini standartlaştırmayı hedefler. Yazarların bu formu doldurmaya 
+başlamadan önce öğrenme çıktısı, hedef beceri, bağlam analizi ve çeldirici kurgusunu içeren kontrol basa -
+maklarını titizlikle takip etmeleri gerekmektedir.
+Aşağıdaki örnek form, söz konusu sistematik süzgeçten geçen soruların kayıt altına alınması için kullanılır.
+Soru Yazım Formu
+Soru Özelliği
+Ders
+Sınıf Düzeyi
+Beceri
+Süreç Bileşenleri 
+Gerekçeleri/Kanıt 
+(Açıklayınız.)
+Bağlam Adı
+Yararlanılan Kaynak
+Güçlük Tahmini
+☐ Zor
+☐ Orta
+☐ Kolay
+Soru Yazarı
+Adı Soyadı
+e-posta
+1. Soru
+Süreç Bileşeni
+Sorunun Doğru Cevabı
+2. Soru
+Süreç Bileşeni
+Sorunun Doğru Cevabı
+3. Soru
+Süreç Bileşeni
+Sorunun Doğru Cevabı
+
+=== Sayfa 25 ===
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+25
+ 3. BÖLÜM
+3.1. TYMM BECERİLERİNİN ÖLÇÜLMESİ
+Bu bölümde bağlam temelli çoktan seçmeli soru yazımı; üst düzey düşünme becerilerinden biri olan “prob -
+lem çözme”, bütünleşik becerilerden biri olan “sorgulama” becerileri ve alan becerilerinden her branş için 
+seçilen bir “alan becerisi” üzerinden örneklendirilmiştir. Ancak TYMM’nin beceri çerçevesi; eleştirel düşün -
+me, karar verme gibi diğer üst düzey düşünme becerileri ile karşılaştırma, çıkarım yapma, yapılandırma gibi 
+bütünleşik becerileri de kapsayan iç içe geçmiş üç farklı boyut (temel, bütünleşik ve üst düzey düşünme) 
+içeren geniş bir beceri kümesine sahiptir. Bu becerilerin ölçülmesinde de kılavuzun genelinde vurgulanan 
+“Bağlam Temelli Çoktan Seçmeli Soru Yazım İlkeleri” geçerliğini korumaktadır. 
+Bu kılavuzda yer alan örnek sorular becerilerin ölçülmesi için geliştirilen ve pilotlaması yapılan sorulardan 
+seçilmiştir. Kılavuzda yer alan örnek soruların pilot analizlerine ilişkin ayrıntılı bilgiler araştırma raporunda 
+yer almaktadır. Bu sorular hem alan bağımsız hem de alan bağımlı olacak şekilde kurgulanmıştır.  Alan ba -
+ğımsız sorularla TYMM’de tanımlanan bu becerilerin süreç bileşenleri arasındaki ilişkisel yapının içerikten 
+bağımsız olarak incelenmesi amaçlanmıştır. Problem çözme ve sorgulama becerilerine ilişkin sunulan soru 
+örnekleri alan bağımsız iken bazı alan becerilerinin kullanıldığı öğrenme çıktılarına yönelik sorular alan ba -
+ğımlıdır. Soru kurgusu, hangi beceriyi hedeflediğine bakılmaksızın öğrenciyi pasif bir okuyucu olmaktan çı -
+karıp bağlamdaki verileri kullanarak zihinsel bir eylem gerçekleştiren aktif bir katılımcıya dönüştürmelidir. 
+Dolayısıyla bu kılavuzda problem çözme ve sorgulama özelinde sunulan bağlam kurgulama, seçenek yapı -
+landırma ve bilişsel yük kontrolü ilkeleri; TYMM kapsamındaki tüm öğrenme çıktıları/süreç bileşenlerinin 
+ölçülmesi için ortak bir çerçeve niteliği taşımaktadır.
+3.2. ÜST DÜZEY DÜŞÜNME BECERİLERİ: PROBLEM ÇÖZME BECERİSİ 
+ÖRNEĞİ
+Üst düzey düşünme becerileri, bütünleşik becerilerden en az ikisini içeren ve çok boyutlu zihinsel süreçler 
+gerektiren eylemleri ifade eder. Kavramsal becerilerde vurgulanan temel ve bütünleşik beceriler arasında 
+aşamalı bir ilişki bulunmamaktadır. Bu beceriler, üst düzey düşünme becerilerinin hayata geçirilmesindeki 
+altyapıyı oluşturmaktadır. TYMM’de karar verme, problem çözme ve eleştirel düşünme olmak üzere üç üst 
+düzey düşünme becerisi tanımlanmıştır. Bu beceriler, öğrencinin bilgiyi yeni durumlara transfer etmesini, 
+analiz etmesini ve yeniden üretmesini gerektirir. 
+Söz konusu becerilere ilişkin soru yazımında aşağıdaki ilkelerin gözetilmesi önerilir.
+a)  Rutin Olmayan Problemler Kullanılmalı
+Öğrencinin daha önce sadece verileri formülde yerine koyarak sonuca ulaştığı sorular, hedeflenen üst 
+düzey becerileri ölçmekte yetersizdir. Bu nedenle soru kurgulanırken bağlamdaki değişkenler farklılaş -
+tırılmalı; yapı günlük hayatla ilişkili, disiplinler arası bağlantılar içeren ve birden fazla çözüm stratejisi ge -
+rektiren bir forma dönüştürülmelidir. Temel hedef, öğrenciyi “Bu sorunu çözmek için nasıl bir yol haritası 
+çizmeliyim?” sorusunu sormaya yönlendirmektir.
+

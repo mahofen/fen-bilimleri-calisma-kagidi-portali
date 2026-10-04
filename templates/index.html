@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEB Türkiye Yüzyılı Maarif Modeli – Fen Bilimleri Bağlam Temelli Öğretim ve Etkinlik Portalı</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        
+        /* Düzenleme Modu Odak ve Vurgu Stilleri */
+        .editing-active [contenteditable="true"] {
+            outline: 1.5px dashed #6366f1 !important;
+            outline-offset: 2px !important;
+            border-radius: 4px !important;
+            background-color: rgba(238, 242, 255, 0.45) !important;
+            transition: all 0.15s ease;
+        }
+        .editing-active [contenteditable="true"]:hover {
+            background-color: rgba(224, 231, 255, 0.8) !important;
+        }
+        .editing-active [contenteditable="true"]:focus {
+            outline: 2px solid #4f46e5 !important;
+            background-color: #ffffff !important;
+        }
+
+        .edit-control { display: none; }
+        .editing-active .edit-control { display: inline-flex; }
+        .editing-active .edit-block-control { display: flex; }
+
+        /* ==================== ŞABLON TEMALARI ==================== */
+        
+        /* ŞABLON 1: Klasik Canlı TYMM */
+        .theme-1 .header-banner { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); }
+        .theme-1 .badge-red { background: linear-gradient(135deg, #e11d48, #f43f5e); color: white; }
+        .theme-1 .card-red { border-color: #fecdd3; background-color: #fff1f2; }
+        .theme-1 .badge-blue { background: linear-gradient(135deg, #0284c7, #0ea5e9); color: white; }
+        .theme-1 .card-blue { border-color: #bae6fd; background-color: #f0f9ff; }
+        .theme-1 .badge-green { background: linear-gradient(135deg, #16a34a, #22c55e); color: white; }
+        .theme-1 .card-green { border-color: #bbf7d0; background-color: #f0fdf4; }
+        .theme-1 .badge-orange { background: linear-gradient(135deg, #ea580c, #f97316); color: white; }
+        .theme-1 .card-orange { border-color: #fed7aa; background-color: #fff7ed; }
+        .theme-1 .badge-purple { background: linear-gradient(135deg, #7c3aed, #8b5cf6); color: white; }
+        .theme-1 .card-purple { border-color: #ddd6fe; background-color: #faf5ff; }
+        .theme-1 .badge-teal { background: linear-gradient(135deg, #0d9488, #14b8a6); color: white; }
+        .theme-1 .card-teal { border-color: #99f6e4; background-color: #f0fdfa; }
+
+        /* ŞABLON 2: Pastel Minimalist */
+        .theme-2 .header-banner { background: #0f172a; border-radius: 1.25rem; }
+        .theme-2 .badge-red { background: #fecdd3; color: #9f1239; font-weight: 800; }
+        .theme-2 .card-red { border-color: #ffe4e6; background-color: #fff5f5; }
+        .theme-2 .badge-blue { background: #bae6fd; color: #075985; font-weight: 800; }
+        .theme-2 .card-blue { border-color: #e0f2fe; background-color: #f8fafc; }
+        .theme-2 .badge-green { background: #bbf7d0; color: #166534; font-weight: 800; }
+        .theme-2 .card-green { border-color: #dcfce7; background-color: #f8fafc; }
+        .theme-2 .badge-orange { background: #fed7aa; color: #9a3412; font-weight: 800; }
+        .theme-2 .card-orange { border-color: #ffedd5; background-color: #f8fafc; }
+        .theme-2 .badge-purple { background: #ddd6fe; color: #5b21b6; font-weight: 800; }
+        .theme-2 .card-purple { border-color: #ede9fe; background-color: #f8fafc; }
+        .theme-2 .badge-teal { background: #99f6e4; color: #115e59; font-weight: 800; }
+        .theme-2 .card-teal { border-color: #ccfbf1; background-color: #f8fafc; }
+
+        /* ŞABLON 3: Biyo-Teknoloji & Bilim */
+        .theme-3 .header-banner { background: linear-gradient(135deg, #022c43 0%, #053f5e 50%, #115173 100%); }
+        .theme-3 .badge-red { background: #be123c; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-red { border: 2px solid #fda4af; background-color: #ffffff; }
+        .theme-3 .badge-blue { background: #0369a1; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-blue { border: 2px solid #7dd3fc; background-color: #ffffff; }
+        .theme-3 .badge-green { background: #15803d; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-green { border: 2px solid #86efac; background-color: #ffffff; }
+        .theme-3 .badge-orange { background: #c2410c; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-orange { border: 2px solid #fdba74; background-color: #ffffff; }
+        .theme-3 .badge-purple { background: #6d28d9; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-purple { border: 2px solid #c4b5fd; background-color: #ffffff; }
+        .theme-3 .badge-teal { background: #0f766e; color: white; clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%); padding-right: 1.5rem; }
+        .theme-3 .card-teal { border: 2px solid #5eead4; background-color: #ffffff; }
+
+        /* ŞABLON 4: Doodle / Çizim & Fırça */
+        .theme-4 .header-banner { background: #1e293b; border-radius: 1.5rem; border: 2px dashed #38bdf8; }
+        .theme-4 .badge-red { background: #e11d48; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(-1deg); }
+        .theme-4 .card-red { border: 2px solid #fb7185; border-radius: 1.5rem; background-color: #fff1f2; }
+        .theme-4 .badge-blue { background: #0284c7; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(1deg); }
+        .theme-4 .card-blue { border: 2px solid #38bdf8; border-radius: 1.5rem; background-color: #f0f9ff; }
+        .theme-4 .badge-green { background: #16a34a; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(-1deg); }
+        .theme-4 .card-green { border: 2px solid #4ade80; border-radius: 1.5rem; background-color: #f0fdf4; }
+        .theme-4 .badge-orange { background: #ea580c; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(1deg); }
+        .theme-4 .card-orange { border: 2px solid #fb923c; border-radius: 1.5rem; background-color: #fff7ed; }
+        .theme-4 .badge-purple { background: #7c3aed; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(-1deg); }
+        .theme-4 .card-purple { border: 2px solid #a78bfa; border-radius: 1.5rem; background-color: #faf5ff; }
+        .theme-4 .badge-teal { background: #0d9488; color: white; border-radius: 20px 8px 20px 8px; transform: rotate(1deg); }
+        .theme-4 .card-teal { border: 2px solid #2dd4bf; border-radius: 1.5rem; background-color: #f0fdfa; }
+
+        /* A4 Baskı Düzeni Kuralları */
+        @media print {
+            .no-print, .edit-control, .edit-block-control, #worksheetToolbar { display: none !important; }
+            body { background: white !important; color: black !important; padding: 0 !important; margin: 0 !important; }
+            .print-container { width: 100% !important; max-width: 100% !important; border: none !important; box-shadow: none !important; padding: 0 !important; }
+            .a4-page { page-break-after: always; break-after: page; box-shadow: none !important; border: none !important; padding: 0.5cm !important; }
+            .hide-on-student-print { display: none !important; }
+            [contenteditable="true"] { outline: none !important; background: transparent !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <!-- Header (No Print) -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-xl border-b border-slate-800 no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-tr from-blue-600 to-indigo-500 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/20 text-2xl">
+                        <i class="fa-solid fa-atom text-white"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 bg-blue-500/20 text-blue-300 rounded border border-blue-500/30">TÜRKİYE YÜZYILI MAARİF MODELİ</span>
+                            <span class="text-xs text-slate-400">Süreç ve Beceri Temelli Ölçme Portalı</span>
+                        </div>
+                        <h1 class="text-lg sm:text-xl font-black text-white">Fen Bilimleri Bağlam Temelli Öğretim ve Etkinlik Portalı</h1>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-3">
+                    <button onclick="printStudentWorksheet()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 shadow-md transition">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Öğrenci Kâğıdını Yazdır (A4)</span>
+                    </button>
+                    <button onclick="printFullAssessment()" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold flex items-center gap-2 border border-slate-700 transition">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <span>Tümünü Yazdır</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ana Gövde -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+        <!-- Sol Panel: Form (No-print) -->
+        <div class="lg:col-span-4 space-y-6 no-print">
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
+                <div class="flex items-center space-x-3 mb-6 pb-4 border-b border-slate-100">
+                    <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-base font-bold text-slate-800">Çalışma Kâğıdı Üretici</h2>
+                        <p class="text-xs text-slate-500">6 Modüllü MEB TYMM Şablon Motoru</p>
+                    </div>
+                </div>
+
+                <form id="assessmentForm" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Sınıf Seviyesi</label>
+                        <select id="grade_level" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                            <option value="5. Sınıf" selected>5. Sınıf (TYMM)</option>
+                            <option value="3. Sınıf">3. Sınıf (TYMM)</option>
+                            <option value="4. Sınıf">4. Sınıf</option>
+                            <option value="6. Sınıf">6. Sınıf (TYMM)</option>
+                            <option value="7. Sınıf">7. Sınıf (TYMM)</option>
+                            <option value="8. Sınıf">8. Sınıf (LGS)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Ders</label>
+                        <input type="text" id="subject" value="Fen Bilimleri" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Ünite / Öğrenme Alanı</label>
+                        <select id="learning_area_select" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium mb-2 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                            <option value="">-- Ünite Seçiniz --</option>
+                        </select>
+                        <input type="text" id="learning_area" placeholder="Örn: 2. ÜNİTE: KUVVETİ TANIYALIM" class="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-xl text-xs">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Öğrenme Çıktısı</label>
+                        <select id="outcome_select" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium mb-2 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                            <option value="">-- Kazanım Seçiniz --</option>
+                        </select>
+                        <textarea id="learning_outcome" rows="3" placeholder="Örn: FB.5.2.4. Sürtünme kuvvetinin çeşitli ortamlardaki etkilerine yönelik tümevarımsal akıl yürütebilme" class="w-full px-3.5 py-2 bg-slate-50 border border-slate-300 rounded-xl text-xs"></textarea>
+                    </div>
+
+                    <!-- Tasarım Şablonu Seçici -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">
+                            <i class="fa-solid fa-palette text-indigo-500 mr-1"></i> Tasarım Şablonu Stili
+                        </label>
+                        <select id="template_style" class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                            <option value="random" selected>🎲 Rastgele Şablon Seç (Önerilen)</option>
+                            <option value="1">🎨 Şablon 1: Klasik Canlı TYMM (1.png)</option>
+                            <option value="2">✨ Şablon 2: Pastel Minimalist (2.jpg)</option>
+                            <option value="3">🔬 Şablon 3: Biyo-Teknoloji & Bilim (3.png)</option>
+                            <option value="4">🖌️ Şablon 4: Fırça & Doodle Tarzı (4.png)</option>
+                        </select>
+                    </div>
+
+                    <!-- Özel Bağlam & Senaryo İsteği Butonu ve Açılır Alanı -->
+                    <div>
+                        <button type="button" id="toggleCustomContextBtn" onclick="toggleCustomContextArea()" class="w-full py-2.5 px-3.5 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 rounded-2xl text-xs font-bold flex items-center justify-between transition shadow-sm">
+                            <span class="flex items-center gap-2">
+                                <i class="fa-solid fa-wand-magic-sparkles text-amber-600"></i>
+                                <span>Özel Bağlam & Senaryo İsteği Ekle</span>
+                            </span>
+                            <span class="text-[10px] bg-amber-200/70 text-amber-800 px-2 py-0.5 rounded-full font-semibold flex items-center gap-1">
+                                <span id="customContextBadge">İsteğe Bağlı</span>
+                                <i id="customContextChevron" class="fa-solid fa-chevron-down text-[9px]"></i>
+                            </span>
+                        </button>
+
+                        <div id="customContextArea" class="hidden mt-2.5 p-3.5 bg-amber-50/50 border border-amber-200 rounded-2xl space-y-2">
+                            <div class="flex items-center justify-between">
+                                <label class="block text-[11px] font-bold text-amber-950 uppercase tracking-wider">Senaryo / Hikâye / Karakter İstekleriniz:</label>
+                                <button type="button" onclick="clearCustomContext()" class="text-[10px] text-rose-600 hover:text-rose-800 font-semibold">Temizle</button>
+                            </div>
+                            <textarea id="custom_context" rows="3" placeholder="Örn: Uzay istasyonunda astronotların yaptığı bir deney olsun / Lunaparkta hız treni bağlamı kullanılsın / Karakterler Zeynep ve Can olsun..." class="w-full px-3 py-2 bg-white border border-amber-200 rounded-xl text-xs placeholder:text-slate-400 focus:ring-2 focus:ring-amber-500 focus:outline-none transition"></textarea>
+                            
+                            <div class="flex flex-wrap gap-1.5 pt-1">
+                                <span class="text-[10px] text-slate-400 font-semibold self-center">Hızlı Örnekler:</span>
+                                <button type="button" onclick="setQuickContext('Uzay istasyonunda astronotların yaptığı bir yerçekimi ve sürtünme deneyi bağlamı')" class="text-[10px] bg-white hover:bg-amber-100 text-slate-600 hover:text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 transition">🚀 Uzay Görevi</button>
+                                <button type="button" onclick="setQuickContext('Lunaparkta dönme dolap ve hız treni üzerinde gerçekleşen bir durum')" class="text-[10px] bg-white hover:bg-amber-100 text-slate-600 hover:text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 transition">🎡 Lunapark</button>
+                                <button type="button" onclick="setQuickContext('Kış tatilinde karlı tepeden kızakla kayan çocukların deneyi')" class="text-[10px] bg-white hover:bg-amber-100 text-slate-600 hover:text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 transition">⛷️ Kızak & Kış</button>
+                                <button type="button" onclick="setQuickContext('Okul bahçesinde öğrencilerin geri dönüşüm malzemeleriyle tasarladığı bir fen deneyi')" class="text-[10px] bg-white hover:bg-amber-100 text-slate-600 hover:text-amber-800 px-2 py-0.5 rounded-md border border-amber-200 transition">🏫 Okul Bahçesi</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="generateBtn" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3.5 px-6 rounded-2xl shadow-lg shadow-indigo-500/25 flex items-center justify-center space-x-2 transition transform active:scale-98">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Şablonlu Çalışma Kâğıdını Üret</span>
+                    </button>
+                </form>
+
+                <!-- Manuel JSON Yükleme / İçe Aktarma -->
+                <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                    <span>Kayıtlı Çalışma Kâğıdı:</span>
+                    <label class="cursor-pointer text-indigo-600 hover:text-indigo-800 font-bold flex items-center gap-1.5">
+                        <i class="fa-solid fa-file-import"></i>
+                        <span>JSON Yükle</span>
+                        <input type="file" id="jsonFileInput" accept=".json" class="hidden" onchange="importWorksheetJSON(event)">
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ Panel: Sabit A4 Render Alanı -->
+        <div class="lg:col-span-8 space-y-6 print-container" id="printableRoot">
+            
+            <!-- Yükleniyor Göstergesi (No-print) -->
+            <div id="loadingIndicator" class="hidden bg-white p-12 rounded-3xl border border-slate-200 shadow-sm text-center space-y-4 no-print">
+                <div class="w-14 h-14 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mx-auto"></div>
+                <div>
+                    <p class="text-slate-800 font-bold text-base">MEB TYMM Çalışma Kâğıdı Hazırlanıyor...</p>
+                    <p class="text-slate-500 text-xs mt-1">6 modüllü görsel şablon mimarisine uygun olarak içerikler ve öğretmen rubriği oluşturuluyor.</p>
+                </div>
+            </div>
+
+            <!-- Boş Durum (No-print) -->
+            <div id="emptyState" class="bg-white p-16 rounded-3xl border border-slate-200 shadow-sm text-center text-slate-400 space-y-3 no-print">
+                <div class="w-20 h-20 bg-slate-50 text-slate-300 rounded-3xl flex items-center justify-center mx-auto text-3xl border">
+                    <i class="fa-solid fa-file-lines"></i>
+                </div>
+                <h3 class="text-slate-700 font-bold text-sm">6 Modüllü Standart Çalışma Kâğıdı Alanı</h3>
+                <p class="text-xs text-slate-400 max-w-sm mx-auto">Sol taraftaki panelden kazanımınızı seçip butona basınız. 4 farklı şablon stilinden biri rastgele seçilerek çalışma kâğıdınız anında görselleştirilecektir.</p>
+            </div>
+
+            <!-- DÜZENLEME & ŞABLON ARAÇ ÇUBUĞU (No Print) -->
+            <div id="worksheetToolbar" class="hidden bg-white p-4 rounded-2xl border border-indigo-100 shadow-md no-print flex flex-wrap items-center justify-between gap-3">
+                <div class="flex items-center space-x-2">
+                    <button id="toggleEditBtn" onclick="toggleEditMode()" class="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 shadow-sm transition">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <span id="editBtnText">Düzenleme Modu: Açık</span>
+                    </button>
+                    <!-- Şablon Canlı Değiştirici Dropdown -->
+                    <div class="flex items-center space-x-1.5 pl-2 border-l border-slate-200">
+                        <span class="text-xs font-bold text-slate-600 hidden sm:inline">🎨 Şablon:</span>
+                        <select id="liveTemplateSwitcher" onchange="switchLiveTemplate(this.value)" class="text-xs font-semibold bg-slate-100 border border-slate-300 rounded-lg px-2 py-1.5 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                            <option value="1">Şablon 1 (Klasik TYMM)</option>
+                            <option value="2">Şablon 2 (Pastel Minimal)</option>
+                            <option value="3">Şablon 3 (Teknoloji & Bilim)</option>
+                            <option value="4">Şablon 4 (Fırça & Doodle)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="flex items-center flex-wrap gap-2">
+                    <button onclick="exportWorksheetJSON()" class="px-2.5 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 rounded-lg text-xs font-bold flex items-center gap-1.5 transition" title="Düzenlenmiş kâğıdı JSON olarak indirin">
+                        <i class="fa-solid fa-download"></i>
+                        <span>İndir (JSON)</span>
+                    </button>
+                    <button onclick="resetToOriginal()" class="px-2.5 py-1.5 bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition" title="İlk haline sıfırla">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span>Sıfırla</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- RENDER EDİLEN A4 ÖĞRENCİ ÇALIŞMA KÂĞIDI -->
+            <div id="studentSheetContainer" class="hidden space-y-8 editing-active theme-1">
+                
+                <!-- 1. SAYFA: ÖĞRENCİ ÇALIŞMA KÂĞIDI (A4) -->
+                <div id="sheetPage1" class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-300 shadow-xl space-y-4 a4-page student-sheet relative">
+                    
+                    <!-- 1. ÜST BAŞLIK & ANTET BANNER -->
+                    <div class="header-banner text-white rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md relative overflow-hidden">
+                        <div class="flex items-center space-x-3.5 z-10">
+                            <div class="w-12 h-12 bg-white/15 backdrop-blur-md rounded-2xl flex items-center justify-center text-white text-2xl border border-white/20 shadow-inner">
+                                <i class="fa-solid fa-atom"></i>
+                            </div>
+                            <div>
+                                <h2 id="out-header-title" contenteditable="true" onblur="syncData()" class="text-base sm:text-lg font-black tracking-wide uppercase">FEN BİLİMLERİ</h2>
+                                <div class="inline-block px-2.5 py-0.5 bg-blue-500/30 backdrop-blur-sm rounded-lg border border-blue-400/30 text-[11px] font-bold tracking-wider text-blue-100 uppercase">
+                                    TYMM BAĞLAM TEMELLİ ÇALIŞMA KÂĞIDI
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Öğrenci Bilgileri Alanı -->
+                        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-2.5 text-xs text-white space-y-1 w-full sm:w-auto font-medium z-10">
+                            <div class="flex items-center justify-between gap-2">
+                                <span>Ad Soyad :</span>
+                                <span class="border-b border-white/40 inline-block w-32"></span>
+                            </div>
+                            <div class="flex items-center justify-between gap-2">
+                                <span>Sınıf :</span>
+                                <span class="border-b border-white/40 inline-block w-32"></span>
+                            </div>
+                            <div class="flex items-center justify-between gap-2">
+                                <span>Tarih :</span>
+                                <span class="border-b border-white/40 inline-block w-32"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 🔴 MODÜL 1: BAĞLAM (Tam Genişlik) -->
+                    <div id="out-module-context" class="card-red border rounded-2xl p-4 space-y-2 relative group transition">
+                        <div class="flex items-center justify-between">
+                            <div class="badge-red px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">1</span>
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <span id="out-context-title" contenteditable="true" onblur="syncData()">BAĞLAM</span>
+                            </div>
+                            <div class="edit-control">
+                                <button onclick="toggleElement('out-module-context')" class="px-2 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold hover:bg-rose-300 transition">
+                                    <i class="fa-solid fa-trash-can"></i> Sil
+                                </button>
+                            </div>
+                        </div>
+                        <p id="out-context-text" contenteditable="true" onblur="syncData()" class="text-xs leading-relaxed text-slate-800 font-medium pt-1">
+                            Bağlam metni burada yer alacaktır...
+                        </p>
+                    </div>
+
+                    <!-- 🔵 MODÜL 2 & 🟢 MODÜL 3: 2 SÜTUNLU GRİD (Veriyi İncele & Keşfet) -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                        <!-- 🔵 MODÜL 2: VERİYİ İNCELE -->
+                        <div id="out-module-dataset" class="card-blue border rounded-2xl p-4 space-y-2.5 relative group flex flex-col justify-between">
+                            <div class="flex items-center justify-between">
+                                <div class="badge-blue px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                    <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">2</span>
+                                    <i class="fa-solid fa-chart-column"></i>
+                                    <span id="out-dataset-title" contenteditable="true" onblur="syncData()">VERİYİ İNCELE</span>
+                                </div>
+                                <div class="edit-control items-center space-x-1">
+                                    <button onclick="addTableRow()" class="px-1.5 py-0.5 bg-blue-200 text-blue-800 rounded text-[10px] font-bold">+ Satır</button>
+                                    <button onclick="toggleElement('out-module-dataset')" class="px-1.5 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                            </div>
+                            <p id="out-dataset-desc" contenteditable="true" onblur="syncData()" class="text-[11px] text-slate-600 font-medium"></p>
+                            <div class="overflow-x-auto flex-1">
+                                <table id="out-dataset-table" class="w-full text-xs text-center border-collapse bg-white rounded-xl border border-blue-200 shadow-sm">
+                                    <!-- Tablo -->
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 🟢 MODÜL 3: KEŞFET -->
+                        <div id="out-module-explore" class="card-green border rounded-2xl p-4 space-y-2.5 relative group">
+                            <div class="flex items-center justify-between">
+                                <div class="badge-green px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                    <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">3</span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <span id="out-explore-title" contenteditable="true" onblur="syncData()">KEŞFET</span>
+                                </div>
+                                <div class="edit-control">
+                                    <button onclick="toggleElement('out-module-explore')" class="px-1.5 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                            </div>
+
+                            <div id="out-explore-tasks" class="space-y-2.5">
+                                <!-- Keşfet Soruları -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 🟠 MODÜL 4: AÇIKLA VE KANITLA (Tam Genişlik 2 Bölmeli Kart) -->
+                    <div id="out-module-explain" class="card-orange border rounded-2xl p-4 space-y-3 relative group">
+                        <div class="flex items-center justify-between">
+                            <div class="badge-orange px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">4</span>
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span id="out-explain-title" contenteditable="true" onblur="syncData()">AÇIKLA ve KANITLA</span>
+                            </div>
+                            <div class="edit-control">
+                                <button onclick="toggleElement('out-module-explain')" class="px-1.5 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold"><i class="fa-solid fa-trash-can"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="out-explain-tasks-grid">
+                            <!-- 1. Açıklamam & 2. Kanıtım -->
+                        </div>
+                    </div>
+
+                    <!-- 🟣 MODÜL 5 & 🟢 MODÜL 6: 2 SÜTUNLU GRİD (Araştır & Çözüm Üret) -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                        <!-- 🟣 MODÜL 5: ARAŞTIR (Çizim / Deney Alanlı) -->
+                        <div id="out-module-research" class="card-purple border rounded-2xl p-4 space-y-2.5 relative group">
+                            <div class="flex items-center justify-between">
+                                <div class="badge-purple px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                    <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">5</span>
+                                    <i class="fa-solid fa-flask-vial"></i>
+                                    <span id="out-research-title" contenteditable="true" onblur="syncData()">ARAŞTIR</span>
+                                </div>
+                                <div class="edit-control">
+                                    <button onclick="toggleElement('out-module-research')" class="px-1.5 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                            </div>
+                            <p id="out-research-question" contenteditable="true" onblur="syncData()" class="text-xs font-bold text-slate-800 leading-snug"></p>
+                            <div id="out-research-answer" contenteditable="true" onblur="syncData()" class="p-2.5 bg-white border border-purple-200 rounded-xl text-xs text-slate-700 whitespace-pre-line leading-relaxed min-h-[50px]"></div>
+                            
+                            <!-- Kesikli Çizim / Düzenek Kutusu -->
+                            <div class="border-2 border-dashed border-purple-300 rounded-xl p-3 bg-white/60 flex flex-col items-center justify-center text-center text-purple-400 min-h-[85px]">
+                                <i class="fa-solid fa-microscope text-xl mb-1 text-purple-400/80"></i>
+                                <span id="out-drawing-label" contenteditable="true" class="text-[11px] font-bold text-purple-700">Deney Düzeneği / Model Çizim Alanı</span>
+                            </div>
+                        </div>
+
+                        <!-- 🟢 MODÜL 6: ÇÖZÜM ÜRET -->
+                        <div id="out-module-solution" class="card-teal border rounded-2xl p-4 space-y-2.5 relative group flex flex-col justify-between">
+                            <div class="flex items-center justify-between">
+                                <div class="badge-teal px-3 py-1 rounded-xl text-xs font-black flex items-center gap-2 shadow-sm">
+                                    <span class="w-5 h-5 bg-white/25 rounded-full flex items-center justify-center text-[11px]">6</span>
+                                    <i class="fa-solid fa-leaf"></i>
+                                    <span id="out-solution-title" contenteditable="true" onblur="syncData()">ÇÖZÜM ÜRET</span>
+                                </div>
+                                <div class="edit-control">
+                                    <button onclick="toggleElement('out-module-solution')" class="px-1.5 py-0.5 bg-rose-200 text-rose-800 rounded text-[10px] font-bold"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                            </div>
+                            <p id="out-solution-question" contenteditable="true" onblur="syncData()" class="text-xs font-bold text-slate-800 leading-snug"></p>
+                            <div id="out-solution-answer" contenteditable="true" onblur="syncData()" class="p-3 bg-white border border-teal-200 rounded-xl text-xs text-slate-700 whitespace-pre-line leading-loose tracking-wider flex-1 min-h-[110px]"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- 2. SAYFA: ÖĞRETMEN REHBERİ VE DEĞERLENDİRME RUBRİĞİ -->
+                <div id="teacherGuideContainer" class="bg-indigo-50/80 p-8 sm:p-12 rounded-3xl border-2 border-indigo-200 shadow-xl space-y-6 teacher-guide relative">
+                    
+                    <div class="flex items-center space-x-3 border-b border-indigo-200 pb-3">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-xl flex items-center justify-center font-bold text-lg">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-base font-bold text-indigo-950 uppercase">ÖĞRETMEN REHBERİ VE ANALİTİK DEĞERLENDİRME RUBRİĞİ</h3>
+                            <p class="text-xs text-indigo-700">Öğrenme çıktısı analizi, süreç bileşenleri, 6 modüllü çözüm anahtarı ve rubrik.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pedagojik Arka Plan -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                        <div class="bg-white p-4 rounded-xl border border-indigo-100 space-y-1">
+                            <strong class="text-indigo-900 block">🎯 Öğrenme Çıktısı:</strong>
+                            <span id="out-tg-outcome" contenteditable="true" onblur="syncData()" class="text-slate-700 font-medium block"></span>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-indigo-100 space-y-1">
+                            <strong class="text-indigo-900 block">🧠 Bilişsel Düzey & Beceriler:</strong>
+                            <span id="out-tg-skills" contenteditable="true" onblur="syncData()" class="text-slate-700 font-medium block"></span>
+                        </div>
+                    </div>
+
+                    <!-- Süreç Bileşenleri -->
+                    <div class="bg-white p-4 rounded-xl border border-indigo-100 text-xs space-y-2">
+                        <strong class="text-indigo-900 block">📐 İlgili Süreç Bileşenleri:</strong>
+                        <ul id="out-tg-process" class="space-y-1 text-slate-700 font-medium list-disc pl-5"></ul>
+                    </div>
+
+                    <!-- Beklenen Çözüm Anahtarı -->
+                    <div class="bg-white p-5 rounded-xl border border-indigo-100 text-xs space-y-3">
+                        <h4 class="font-bold text-indigo-900 text-sm">🔑 Modül Bazında Beklenen İdeal Cevaplar:</h4>
+                        <div id="out-tg-answers" class="space-y-2 divide-y divide-slate-100"></div>
+                    </div>
+
+                    <!-- Analitik Rubrik Tablosu -->
+                    <div class="space-y-2">
+                        <h4 class="font-bold text-indigo-900 text-xs">📊 Analitik Dereceli Puanlama Anahtarı (Rubrik):</h4>
+                        <div class="overflow-x-auto">
+                            <table id="out-tg-rubrik-table" class="w-full text-xs text-left border-collapse bg-white rounded-xl border border-indigo-200">
+                                <thead>
+                                    <tr class="bg-indigo-900 text-white font-bold">
+                                        <th class="p-2.5 border border-indigo-800">Ölçüt</th>
+                                        <th class="p-2.5 border border-indigo-800">Geliştirilmeli</th>
+                                        <th class="p-2.5 border border-indigo-800">Kabul Edilebilir</th>
+                                        <th class="p-2.5 border border-indigo-800">Tam Yetkin</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="out-tg-rubrik-body" class="text-slate-700"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Öğretmen Notu -->
+                    <div id="out-tg-note-box" class="bg-amber-50 border border-amber-200 p-4 rounded-xl text-xs text-amber-900 font-medium">
+                        <strong>📌 Öğretmen Notu & Kavram Yanılgısı Uyarısı:</strong>
+                        <p id="out-tg-note" contenteditable="true" onblur="syncData()" class="mt-1"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- JavaScript Uygulama Motoru -->
+    <script>
+        let curriculumData = {};
+        let currentWorksheetData = null;
+        let originalWorksheetData = null;
+        let isEditModeActive = true;
+        let currentThemeId = 1;
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const res = await fetch('/api/curriculum');
+                curriculumData = await res.json();
+                const areaSelect = document.getElementById('learning_area_select');
+                
+                for (const unit in curriculumData) {
+                    const opt = document.createElement('option');
+                    opt.value = unit;
+                    opt.textContent = unit;
+                    areaSelect.appendChild(opt);
+                }
+            } catch (err) {
+                console.error("Müfredat yüklenemedi:", err);
+            }
+        });
+
+        document.getElementById('learning_area_select').addEventListener('change', (e) => {
+            const unit = e.target.value;
+            document.getElementById('learning_area').value = unit;
+            const outcomeSelect = document.getElementById('outcome_select');
+            outcomeSelect.innerHTML = '<option value="">-- Kazanım Seçiniz --</option>';
+            
+            if (unit && curriculumData[unit]) {
+                curriculumData[unit].forEach(out => {
+                    const opt = document.createElement('option');
+                    opt.value = out;
+                    opt.textContent = out.substring(0, 85) + '...';
+                    outcomeSelect.appendChild(opt);
+                });
+            }
+        });
+
+        document.getElementById('outcome_select').addEventListener('change', (e) => {
+            document.getElementById('learning_outcome').value = e.target.value;
+        });
+
+        function toggleCustomContextArea() {
+            const area = document.getElementById('customContextArea');
+            const chevron = document.getElementById('customContextChevron');
+            const badge = document.getElementById('customContextBadge');
+            
+            if (area.classList.contains('hidden')) {
+                area.classList.remove('hidden');
+                chevron.className = 'fa-solid fa-chevron-up text-[9px]';
+                badge.textContent = 'Aktif';
+                badge.className = 'bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded-full font-bold flex items-center gap-1';
+                document.getElementById('custom_context').focus();
+            } else {
+                area.classList.add('hidden');
+                chevron.className = 'fa-solid fa-chevron-down text-[9px]';
+                const hasValue = document.getElementById('custom_context').value.trim().length > 0;
+                badge.textContent = hasValue ? 'Dolu' : 'İsteğe Bağlı';
+                badge.className = hasValue 
+                    ? 'bg-blue-200 text-blue-900 px-2 py-0.5 rounded-full font-bold flex items-center gap-1' 
+                    : 'bg-amber-200/70 text-amber-800 px-2 py-0.5 rounded-full font-semibold flex items-center gap-1';
+            }
+        }
+
+        function clearCustomContext() {
+            const el = document.getElementById('custom_context');
+            if (el) el.value = '';
+            const badge = document.getElementById('customContextBadge');
+            if (badge) {
+                badge.textContent = 'Aktif';
+                badge.className = 'bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded-full font-bold flex items-center gap-1';
+            }
+        }
+
+        function setQuickContext(text) {
+            const el = document.getElementById('custom_context');
+            if (el) {
+                el.value = text;
+                el.focus();
+            }
+        }
+
+        // Form Submit
+        document.getElementById('assessmentForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const grade_level = document.getElementById('grade_level').value;
+            const subject = document.getElementById('subject').value;
+            const learning_area = document.getElementById('learning_area').value;
+            const learning_outcome = document.getElementById('learning_outcome').value;
+            const difficulty = 'Orta';
+            const template_style = document.getElementById('template_style').value;
+            const custom_context = document.getElementById('custom_context')?.value || '';
+
+            if (!learning_outcome.trim()) {
+                alert("Lütfen bir öğrenme çıktısı seçin veya yazın!");
+                return;
+            }
+
+            document.getElementById('emptyState').classList.add('hidden');
+            document.getElementById('studentSheetContainer').classList.add('hidden');
+            document.getElementById('worksheetToolbar').classList.add('hidden');
+            document.getElementById('loadingIndicator').classList.remove('hidden');
+            document.getElementById('generateBtn').disabled = true;
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        grade_level,
+                        subject,
+                        learning_area,
+                        learning_outcome,
+                        difficulty,
+                        template_style,
+                        custom_context
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success && data.content && data.content.studentWorksheet) {
+                    originalWorksheetData = JSON.parse(JSON.stringify(data.content));
+                    currentWorksheetData = JSON.parse(JSON.stringify(data.content));
+                    
+                    // Şablon stilini uygula (Rastgele gelen veya seçilen)
+                    const styleId = data.content.templateStyleId || (Math.floor(Math.random() * 4) + 1);
+                    applyTemplateTheme(styleId);
+
+                    renderStandardWorksheet(currentWorksheetData);
+                    
+                    document.getElementById('loadingIndicator').classList.add('hidden');
+                    document.getElementById('worksheetToolbar').classList.remove('hidden');
+                    document.getElementById('generateBtn').disabled = false;
+                } else if (data.error || (data.content && data.content.error)) {
+                    document.getElementById('loadingIndicator').classList.add('hidden');
+                    document.getElementById('generateBtn').disabled = false;
+                    const errText = data.error || data.content.error;
+                    alert("Hata: " + errText);
+                    document.getElementById('emptyState').classList.remove('hidden');
+                } else {
+                    document.getElementById('loadingIndicator').classList.add('hidden');
+                    document.getElementById('generateBtn').disabled = false;
+                    alert("Beklenmeyen çıktı formatı. Lütfen tekrar deneyiniz.");
+                    document.getElementById('emptyState').classList.remove('hidden');
+                }
+
+            } catch (err) {
+                document.getElementById('loadingIndicator').classList.add('hidden');
+                document.getElementById('generateBtn').disabled = false;
+                alert("İstek sırasında bir hata oluştu: " + err.message);
+                document.getElementById('emptyState').classList.remove('hidden');
+            }
+        });
+
+        // Şablon Temasını Değiştir
+        function applyTemplateTheme(themeId) {
+            currentThemeId = themeId;
+            const container = document.getElementById('studentSheetContainer');
+            container.classList.remove('theme-1', 'theme-2', 'theme-3', 'theme-4');
+            container.classList.add(`theme-${themeId}`);
+            
+            const switcher = document.getElementById('liveTemplateSwitcher');
+            if (switcher) switcher.value = themeId.toString();
+        }
+
+        function switchLiveTemplate(themeId) {
+            applyTemplateTheme(parseInt(themeId));
+        }
+
+        function toggleEditMode() {
+            isEditModeActive = !isEditModeActive;
+            const container = document.getElementById('studentSheetContainer');
+            const btn = document.getElementById('toggleEditBtn');
+            const btnText = document.getElementById('editBtnText');
+
+            if (isEditModeActive) {
+                container.classList.add('editing-active');
+                btn.className = "px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 shadow-sm transition";
+                btnText.textContent = "Düzenleme Modu: Açık";
+            } else {
+                container.classList.remove('editing-active');
+                btn.className = "px-3.5 py-2 bg-slate-700 hover:bg-slate-800 text-slate-200 rounded-xl text-xs font-bold flex items-center gap-2 shadow-sm transition";
+                btnText.textContent = "Önizleme Modu (Düzenleme Kapalı)";
+            }
+        }
+
+        function toggleElement(id) {
+            const el = document.getElementById(id);
+            if (el) el.classList.toggle('hidden');
+        }
+
+        // 6 MODÜLLÜ SABİT RENDER MOTORU
+        function renderStandardWorksheet(data) {
+            if (!data || !data.studentWorksheet) return;
+            const sw = data.studentWorksheet;
+            const tg = data.teacherGuide;
+
+            // 1. Üst Antet
+            document.getElementById('out-header-title').textContent = sw.header?.subject ? `${sw.header.subject.toUpperCase()}` : "FEN BİLİMLERİ";
+
+            // 🔴 1. MODÜL: BAĞLAM
+            if (sw.context) {
+                document.getElementById('out-context-title').textContent = sw.context.title || "1. BAĞLAM";
+                document.getElementById('out-context-text').textContent = sw.context.text || "";
+            }
+
+            // 🔵 2. MODÜL: VERİYİ İNCELE
+            const ds = sw.dataSet;
+            if (ds && ds.headers && ds.rows) {
+                document.getElementById('out-dataset-title').textContent = ds.title || "2. VERİYİ İNCELE";
+                document.getElementById('out-dataset-desc').textContent = ds.description || "";
+                
+                let tableHtml = '<thead><tr class="bg-blue-100/70 text-blue-950 font-bold">';
+                ds.headers.forEach((h, colIndex) => { 
+                    tableHtml += `
+                        <th class="p-2 border border-blue-200 relative group">
+                            <span contenteditable="true" onblur="updateTableHeader(${colIndex}, this.innerText)">${h}</span>
+                        </th>`; 
+                });
+                tableHtml += '</tr></thead><tbody>';
+                
+                ds.rows.forEach((r, rowIndex) => {
+                    tableHtml += '<tr>';
+                    r.forEach((c, colIndex) => { 
+                        tableHtml += `<td class="p-1.5 border border-blue-200" contenteditable="true" onblur="updateTableCell(${rowIndex}, ${colIndex}, this.innerText)">${c}</td>`; 
+                    });
+                    tableHtml += '</tr>';
+                });
+                tableHtml += '</tbody>';
+                document.getElementById('out-dataset-table').innerHTML = tableHtml;
+            }
+
+            // 🟢 3. MODÜL: KEŞFET
+            if (sw.exploreSection) {
+                document.getElementById('out-explore-title').textContent = sw.exploreSection.title || "3. KEŞFET";
+                let expHtml = '';
+                (sw.exploreSection.tasks || []).forEach((t, idx) => {
+                    let ans = t.answerSpace || `Cevabım:\n........................................................................................................................\n........................................................................................................................`;
+                    expHtml += `
+                        <div class="space-y-1 bg-white p-2.5 rounded-xl border border-green-200">
+                            <div class="flex items-start gap-1.5">
+                                <span class="w-4 h-4 bg-green-600 text-white rounded-full flex items-center justify-center text-[10px] font-bold mt-0.5">${t.taskNumber || (idx + 1)}</span>
+                                <p contenteditable="true" onblur="updateExploreQuestion(${idx}, this.innerText)" class="text-xs font-bold text-slate-800 leading-snug flex-1">${t.question}</p>
+                            </div>
+                            <div contenteditable="true" onblur="updateExploreAnswer(${idx}, this.innerText)" class="text-[11px] text-slate-600 whitespace-pre-line leading-relaxed font-medium pt-1">
+                                ${ans}
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('out-explore-tasks').innerHTML = expHtml;
+            }
+
+            // 🟠 4. MODÜL: AÇIKLA VE KANITLA
+            if (sw.explainSection) {
+                document.getElementById('out-explain-title').textContent = sw.explainSection.title || "4. AÇIKLA ve KANITLA";
+                let expTasksHtml = '';
+                (sw.explainSection.tasks || []).forEach((t, idx) => {
+                    let ans = t.answerSpace || `Cevabım:\n........................................................................................................................\n........................................................................................................................`;
+                    expTasksHtml += `
+                        <div class="bg-white p-3 rounded-xl border border-orange-200 space-y-1.5">
+                            <div class="flex items-start gap-1.5">
+                                <span class="w-4 h-4 bg-orange-600 text-white rounded-full flex items-center justify-center text-[10px] font-bold mt-0.5">${t.taskNumber || (idx + 1)}</span>
+                                <strong contenteditable="true" class="text-xs text-orange-950 font-bold block">${t.title || (idx === 0 ? 'Bilimsel Açıklamam' : 'Kanıtım ve Gerekçem')}</strong>
+                            </div>
+                            <p contenteditable="true" onblur="updateExplainQuestion(${idx}, this.innerText)" class="text-xs text-slate-800 font-semibold leading-snug">${t.question}</p>
+                            <div contenteditable="true" onblur="updateExplainAnswer(${idx}, this.innerText)" class="text-[11px] text-slate-700 whitespace-pre-line leading-loose font-medium min-h-[50px] border-t border-orange-100 pt-1">
+                                ${ans}
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('out-explain-tasks-grid').innerHTML = expTasksHtml;
+            }
+
+            // 🟣 5. MODÜL: ARAŞTIR
+            if (sw.researchSection) {
+                document.getElementById('out-research-title').textContent = sw.researchSection.title || "5. ARAŞTIR";
+                document.getElementById('out-research-question').textContent = sw.researchSection.question || "";
+                document.getElementById('out-research-answer').textContent = sw.researchSection.answerSpace || "Araştırma Tasarımım:\n........................................................................................................................";
+                document.getElementById('out-drawing-label').textContent = sw.researchSection.drawingBoxLabel || "Deney Düzeneği / Model Çizim Alanı";
+            }
+
+            // 🟢 6. MODÜL: ÇÖZÜM ÜRET
+            if (sw.solutionSection) {
+                document.getElementById('out-solution-title').textContent = sw.solutionSection.title || "6. ÇÖZÜM ÜRET";
+                document.getElementById('out-solution-question').textContent = sw.solutionSection.question || "";
+                document.getElementById('out-solution-answer').textContent = sw.solutionSection.answerSpace || "Çözüm Önerim ve Bilimsel Gerekçem:\n........................................................................................................................\n........................................................................................................................";
+            }
+
+            // ÖĞRETMEN REHBERİ RENDER
+            if (tg) {
+                document.getElementById('out-tg-outcome').textContent = tg.learningOutcome || "";
+                document.getElementById('out-tg-skills').textContent = `${tg.cognitiveLevel || ''} • ${(tg.measuredSkills || []).join(', ')}`;
+                
+                let procHtml = '';
+                (tg.processComponents || []).forEach(p => { procHtml += `<li>${p}</li>`; });
+                document.getElementById('out-tg-process').innerHTML = procHtml;
+
+                let ansHtml = '';
+                (tg.answerKey || []).forEach(a => {
+                    ansHtml += `
+                        <div class="pt-2">
+                            <strong class="text-indigo-950">${a.section || 'Görev'}:</strong> <span class="text-emerald-800 font-semibold">${a.expectedAnswer}</span>
+                            ${a.scientificExplanation ? `<p class="text-slate-600 text-[11px] mt-0.5 font-medium"><em>Açıklama:</em> ${a.scientificExplanation}</p>` : ''}
+                        </div>
+                    `;
+                });
+                document.getElementById('out-tg-answers').innerHTML = ansHtml;
+
+                if (tg.rubric && tg.rubric.criteria) {
+                    let rubHtml = '';
+                    tg.rubric.criteria.forEach(c => {
+                        rubHtml += `
+                            <tr>
+                                <td class="p-2.5 border font-bold text-indigo-950">${c.criterion}</td>
+                                <td class="p-2.5 border text-slate-600">${c.needsImprovement}</td>
+                                <td class="p-2.5 border text-slate-700">${c.acceptable}</td>
+                                <td class="p-2.5 border font-semibold text-emerald-800">${c.proficient}</td>
+                            </tr>
+                        `;
+                    });
+                    document.getElementById('out-tg-rubrik-body').innerHTML = rubHtml;
+                }
+
+                document.getElementById('out-tg-note').textContent = tg.teacherNote || "Öğrenci yanıtlarını rubrik kriterlerine göre değerlendiriniz.";
+            }
+
+            document.getElementById('studentSheetContainer').classList.remove('hidden');
+        }
+
+        // Senkronizasyon ve Düzenleme Fonksiyonları
+        function syncData() {
+            if (!currentWorksheetData) return;
+            const sw = currentWorksheetData.studentWorksheet;
+            if (sw && sw.context) {
+                sw.context.title = document.getElementById('out-context-title').innerText.trim();
+                sw.context.text = document.getElementById('out-context-text').innerText.trim();
+            }
+            if (sw && sw.researchSection) {
+                sw.researchSection.question = document.getElementById('out-research-question').innerText.trim();
+                sw.researchSection.answerSpace = document.getElementById('out-research-answer').innerText;
+            }
+            if (sw && sw.solutionSection) {
+                sw.solutionSection.question = document.getElementById('out-solution-question').innerText.trim();
+                sw.solutionSection.answerSpace = document.getElementById('out-solution-answer').innerText;
+            }
+        }
+
+        function updateTableHeader(colIndex, text) {
+            if (currentWorksheetData?.studentWorksheet?.dataSet?.headers) {
+                currentWorksheetData.studentWorksheet.dataSet.headers[colIndex] = text.trim();
+            }
+        }
+
+        function updateTableCell(rowIndex, colIndex, text) {
+            if (currentWorksheetData?.studentWorksheet?.dataSet?.rows[rowIndex]) {
+                currentWorksheetData.studentWorksheet.dataSet.rows[rowIndex][colIndex] = text.trim();
+            }
+        }
+
+        function addTableRow() {
+            const ds = currentWorksheetData?.studentWorksheet?.dataSet;
+            if (!ds) return;
+            ds.rows.push(Array(ds.headers.length).fill("Yeni Değer"));
+            renderStandardWorksheet(currentWorksheetData);
+        }
+
+        function updateExploreQuestion(idx, text) {
+            if (currentWorksheetData?.studentWorksheet?.exploreSection?.tasks[idx]) {
+                currentWorksheetData.studentWorksheet.exploreSection.tasks[idx].question = text.trim();
+            }
+        }
+
+        function updateExploreAnswer(idx, text) {
+            if (currentWorksheetData?.studentWorksheet?.exploreSection?.tasks[idx]) {
+                currentWorksheetData.studentWorksheet.exploreSection.tasks[idx].answerSpace = text;
+            }
+        }
+
+        function updateExplainQuestion(idx, text) {
+            if (currentWorksheetData?.studentWorksheet?.explainSection?.tasks[idx]) {
+                currentWorksheetData.studentWorksheet.explainSection.tasks[idx].question = text.trim();
+            }
+        }
+
+        function updateExplainAnswer(idx, text) {
+            if (currentWorksheetData?.studentWorksheet?.explainSection?.tasks[idx]) {
+                currentWorksheetData.studentWorksheet.explainSection.tasks[idx].answerSpace = text;
+            }
+        }
+
+        function exportWorksheetJSON() {
+            if (!currentWorksheetData) return;
+            syncData();
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(currentWorksheetData, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", `tyml_calisma_kagidi_${new Date().toISOString().slice(0,10)}.json`);
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+        }
+
+        function resetToOriginal() {
+            if (!originalWorksheetData) return;
+            if (!confirm("Orijinal haline dönmek istediğinize emin misiniz?")) return;
+            currentWorksheetData = JSON.parse(JSON.stringify(originalWorksheetData));
+            renderStandardWorksheet(currentWorksheetData);
+        }
+
+        function importWorksheetJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const parsed = JSON.parse(e.target.result);
+                    if (parsed.studentWorksheet) {
+                        originalWorksheetData = JSON.parse(JSON.stringify(parsed));
+                        currentWorksheetData = JSON.parse(JSON.stringify(parsed));
+                        document.getElementById('emptyState').classList.add('hidden');
+                        document.getElementById('worksheetToolbar').classList.remove('hidden');
+                        renderStandardWorksheet(currentWorksheetData);
+                    }
+                } catch (err) {
+                    alert("JSON dosyası okunurken hata oluştu: " + err.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function printStudentWorksheet() {
+            syncData();
+            const wasEditing = isEditModeActive;
+            if (isEditModeActive) toggleEditMode();
+            const tg = document.getElementById('teacherGuideContainer');
+            tg.classList.add('hide-on-student-print');
+            window.print();
+            setTimeout(() => {
+                tg.classList.remove('hide-on-student-print');
+                if (wasEditing && !isEditModeActive) toggleEditMode();
+            }, 1000);
+        }
+
+        function printFullAssessment() {
+            syncData();
+            const wasEditing = isEditModeActive;
+            if (isEditModeActive) toggleEditMode();
+            window.print();
+            setTimeout(() => {
+                if (wasEditing && !isEditModeActive) toggleEditMode();
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

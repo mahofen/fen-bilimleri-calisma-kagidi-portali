@@ -1,0 +1,210 @@
+--- Sayfa 7 ---
+7
+İÇİNDEKİLER
+1. BÖLÜM  ................................................................. 9
+1.1. GİRİŞ  ................................................................. 9
+2. BÖLÜM  ............................................................... 10
+2.1. TÜRKİYE YÜZYILI MAARİF MODELİ’NDE ÖLÇME VE DEĞERLENDİRME Y AKLA-
+ŞIMI VE BECERİLERİN ÖLÇÜLMESİ  ......................................... 10
+2.2. BİLGİ VE BECERİ NEDİR?  .............................................. 11
+2.2.1. Öğrenme Çıktılarında Bilgi ve Becerilerin Bütünleşik Yapısı  .................... 12
+2.3. BAĞLAM TEMELLİ SORU NEDİR?  ...................................... 13
+2.4. TYMM BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU Y AZIM SÜRECİ  ......... 16
+2.4.1. Bağlamın Kurgulanması  .................................................. 16
+2.4.2. Soru Kökü ve Seçeneklerin Oluşturulması  .................................. 17
+2.4.3. Bilişsel Yük  ............................................................. 18
+2.4.4. Soru Yazımına Yönelik Kontrol Listesi  ...................................... 18
+2.5. BAĞLAM TEMELLİ SORU Y AZIMINDA SIK Y APILAN HATALARA ÖRNEKLER  . 21
+2.5.1. Bağlam Hataları  .......................................................... 21
+2.5.2. Soru Kökü Hataları  ....................................................... 22
+2.5.3. Seçenek ve Çeldirici Hataları  .............................................. 22
+2.5.4. Tasarım ve Dizgi Hataları  ................................................. 23
+2.6. SORU Y AZIM FORMU  .................................................. 24
+3. BÖLÜM  ............................................................... 25
+3.1. TYMM BECERİLERİNİN ÖLÇÜLMESİ  ..................................... 25
+3.2. ÜST DÜZEY DÜŞÜNME BECERİLERİ: PROBLEM ÇÖZME BECERİSİ ÖRNEĞİ  .. 25
+3.2.1. PROBLEM ÇÖZME BECERİSİ ÖRNEK SORULAR  .............................. 27
+3.2.1.1. Temel Eğitim Örnek Sorular  ..................................................... 27
+3.2.1.2. Ortaöğretim Örnek Sorular  ..................................................... 35
+--- Sayfa 8 ---
+8
+3.3. BÜTÜNLEŞİK BECERİLER: SORGULAMA BECERİSİ ÖRNEĞİ  ............... 56
+3.3.1. SORGULAMA BECERİSİ ÖRNEK SORULAR  .................................. 57
+3.3.1.1. Temel Eğitim Örnek Sorular  ..................................................... 57
+3.3.1.2. Ortaöğretim Örnek Sorular  ..................................................... 66
+3.4. ALAN BECERİLERİ  ................................................... 85
+3.4.1. ALAN BECERİSİ ÖRNEK SORULAR  ......................................... 86
+3.4.1.1. Temel Eğitim Örnek Sorular  ..................................................... 86
+3.4.1.2. Ortaöğretim Örnek Sorular  ..................................................... 95
+3.5. BİLİŞSEL GÖRÜŞME (SESLİ DÜŞÜNME) PROTOKOLÜ  ..................... 117
+3.5.1. Uygulama Adımları  ....................................................... 117
+3.5.2. Bilişsel Görüşme Sonucu Öneriler  .......................................... 119
+KAYNAKÇA  ............................................................ 122
+--- Sayfa 9 ---
+9
+ 1. BÖLÜM
+1.1. GİRİŞ
+Türkiye Yüzyılı Maarif Modeli (TYMM) ile eğitim sistemimizde gerçekleşen öğretim programı değişikliği, ölç-
+me ve değerlendirme yaklaşımlarında da yapısal bir dönüşümü zorunlu kılmıştır. Öğrencinin ne bildiğiyle 
+ilgilenmesinin yanında bildiğiyle ne yapabildiğini bütünleştiren bu modelin geçerli biçimde uygulanabilmesi 
+için öğrenme çıktılarının ölçülebilir göstergelere dayalı soru formatlarına dönüştürülmesi gerekmektedir. 
+Bu kılavuz, öğretim programlarında yer alan öğrenme çıktılarını ölçmeye yönelik bir kaynak oluşturmak ve 
+soru üretim sürecini standartlaştırmak amacıyla hazırlanmıştır. Bu doğrultuda kılavuzda bağlam temelli 
+çoktan seçmeli soru yazım süreci ele alınmıştır.
+Kılavuzun öncelikli hedeflerinden biri, soru ve ders kitabı yazarları ile öğretmenlerin TYMM’deki öğrenme 
+çıktılarının temelini oluşturan kavramsal beceriler ile alan becerilerinin doğru ve güvenilir bir şekilde ölçül -
+mesine yönelik soru yazma yeterliklerini geliştirmektir. Bu doğrultuda kılavuzda uygun bağlam seçiminden 
+günlük hayatta karşılaşılabilecek problem durumlarının kurgulanmasına uzanan çoktan seçmeli soru ya -
+zım aşamaları ele alınmıştır. Ayrıca sunulan formlar ve bağlamlar ile soru tasarım sürecinin kolaylaştırılma -
+sı amaçlanmıştır.
+Bu kılavuz, gerçekleştirilen pilot uygulamadan elde edilen veriler ile “bilişsel görüşme” (öğrencilerle ya -
+pılan sesli düşünme protokolleri) sonuçları temel alınarak oluşturulmuştur. Dokümanda yer alan öneriler 
+ve kontrol listeleri; sahadaki uygulamalarda karşılaşılan yapısal kusurları gidermek, soru yazma sürecini 
+standartlaştırmak ve ortak bir ölçme dili oluşturmak amacıyla hazırlanmış yönergelerdir. TYMM’de yer alan 
+bütün kavramsal beceriler ile alan becerilerine yönelik birer örnek oluşturulması kılavuzun içerik yükünü 
+artıracağından kılavuzda yer alan örnekler pilot sınav uygulamasında ele alınan problem çözme, sorgulama 
+ve seçilen alan becerileri üzerinden yapılandırılmıştır. Kılavuzda çeşitli alan becerilerine dayanan öğren -
+me çıktılarını bilgi bağımlı, problem çözme ve sorgulama becerilerine dayanan öğrenme çıktılarını ise bilgi 
+bağımsız ölçen çoktan seçmeli sorulara yer verilmiştir. Bununla beraber kılavuz, öğretim programlarının 
+hedeflediği tüm öğrenme çıktılarının ölçülmesi için yararlanılabilecek bir kaynak niteliğindedir.
+Kılavuzda yer alan uygulama adımları ve örnekler; pilot çalışmaları tamamlanmış ve psikometrik özellikleri 
+saha verileriyle kanıtlanmış olan problem çözme, sorgulama ve seçilen alan becerileri üzerine yoğunlaş -
+mıştır. Bununla birlikte TYMM beceri setinde yer alan eleştirel düşünme, karar verme ve diğer becerilerin 
+ölçülmesi de burada sunulan “Bağlam Temelli Soru Yazım Yaklaşımı”na dayandırılabilir. 
+Kılavuz, TYMM’nin önerdiği ölçme ve değerlendirme süreçlerine hâkim olmak isteyen tüm eğitim paydaşları 
+için yazılmıştır. Ölçme ve değerlendirme süreçlerinde bilgi odaklı yaklaşımların ötesine geçilmesini hedef -
+leyerek bağlam temelli, gerçek yaşamla ilişkili ve becerileri harekete geçiren nitelikli değerlendirme uygu -
+lamalarının geliştirilmesi noktasında kılavuzun bu paydaşlara rehberlik etmesi beklenmektedir. TYMM’nin 
+bütüncül çerçevesi ile öğrencilerin yalnızca ne bildiklerini değil bildiklerini gerçek yaşam durumlarını içe -
+ren bağlamlarda nasıl kullanabildiklerini ortaya koyan bir değerlendirme anlayışının eğitim ortamlarında 
+tutarlı ve sürdürülebilir biçimde hayata geçirilmesi amaçlanmaktadır. Bu yönüyle söz konusu yaklaşımın 
+materyal geliştirme, öğretim ve değerlendirme süreçlerinde görev alan farklı paydaş gruplarına rehberlik 
+etmesi hedeflenmektedir.
+Bu kapsamda öğretmenlerin kılavuzda sunulan ilke ve örnekler doğrultusunda sınıf içi değerlendirme 
+uygu lamalarını bağlam temelli bir yaklaşımla yapılandırma yetkinliğini artırması, soru yazarlarının bağlam 
+temelli çoktan seçmeli soru geliştirme sürecinde kılavuzu temel bir referans kaynağı olarak kullanması 
+beklenmektedir.
+--- Sayfa 10 ---
+10
+ 2. BÖLÜM
+2.1. TÜRKİYE YÜZYILI MAARİF MODELİ’NDE ÖLÇME VE 
+DEĞERLENDİRME Y AKLAŞIMI VE BECERİLERİN ÖLÇÜLMESİ
+Günümüzde toplumsal, ekonomik ve teknolojik dinamiklerin hızla dönüşmesi, eğitim sistemlerinin yalnızca 
+bilgi aktarımına odaklanan klasik yapısının yeniden şekillendirilmesini gerektirmiştir. Bireylerin toplum ve 
+iş hayatında başarılı olabilmeleri için problem çözme, eleştirel düşünme, iletişim, iş birliği gibi çağın gerek -
+tirdiği becerilere sahip olmaları bir zorunluluk hâline gelmiştir. Dijital dönüşüm, yapay zekâ gibi teknolojik 
+gelişmeler, öğrencilerin yalnızca ne bildiklerini değil bildiklerini nasıl kullandıklarını da ortaya koyabilmele -
+rini gerektirmektedir. Bu yönüyle eğitim, bireylerin bilgiye erişiminin ötesinde bilgiyi anlamlandırma ve ger -
+çek yaşam durumlarına transfer etme yeterliklerini geliştiren bir süreç olarak yeniden tanımlanmaktadır. 
+Bu anlayış değişimi, öğretim programlarının beceri temelli bir çerçeveye dönüşümünü zorunlu kılmıştır. 
+Ülkelerin politika belirleyicileri, araştırmacılar ve eğitim kuruluşları; öğrencilerin sahip olması gereken be -
+cerileri tanımlama, beceri çerçeveleri oluşturma ve bunları öğretim programlarıyla bütünleştirme yönün -
+de çeşitli çalışmalar yürütmektedir.
+Türkiye’de bu doğrultuda 2024 yılından itibaren hayata geçirilen TYMM, öğrencinin bilgiyi ürettiği, becerile -
+rini geliştirdiği ve topluma katkı sağladığı bütüncül bir yapı sunmaktadır. Bu modelde eğitim; zihinsel, sos -
+yal, duygusal ve fiziksel gelişimi kapsayan çok yönlü bir süreç olarak ele alınmaktadır (MEB, 2025). TYMM 
+kapsamında öğrencilerin çok yönlü gelişimini destekleyen eğilimler ve değerlerin yanı sıra kavramsal, sos -
+yal-duygusal öğrenme becerileri ile alan ve okuryazarlık becerileri esas alınmıştır. Bu modele dayalı olarak 
+K-12 düzeyinde tüm derslerde öğretim programları güncellenmiştir. TYMM öğretim programları; öğrenme 
+çıktıları ve süreç bileşenleri, içerik çerçevesi, öğrenme kanıtları (ölçme ve değerlendirme), öğrenme-öğ -
+retme yaşantıları, farklılaştırma ve öğretmen yansıtmaları olmak üzere altı temel bölümden oluşmaktadır.
+TYMM öğretim programlarında içerik ve becerinin bütünleştiği “öğrenme çıktıları” kavramı kullanılmıştır. 
+Öğrenme çıktıları, kavramsal veya alan becerileri ile içerik çerçevesinin birleştirilmesiyle oluşturulmuş ve 
+bu çıktılara ait süreç bileşenleri hazırlanmıştır (MEB, 2025). TYMM’de ölçme ve değerlendirme yaklaşımı, 
+TYMM Öğretim Programları Ortak Metni’nde açıklanmıştır. Ayrıca her alan için ölçme ve değerlendirme 
+yaklaşımına “Öğretim Programının Uygulanmasına İlişkin Esaslar” bölümünde yer verilmiştir. Tüm öğre -
+tim programlarında “Öğrenme Kanıtları (Ölçme ve Değerlendirme)” başlığı altında ilgili tema/ünite/öğren -
+me alanındaki öğrenme çıktılarına yönelik ölçme ve değerlendirme araçları önerilmiştir. Önerilen ölçme 
+ve değerlendirme araçlarının öğretim sürecinde nasıl uygulanacağı “Öğrenme-Öğretme Uygulamaları” alt 
+başlığında açıklanmıştır.
+TYMM ölçme ve değerlendirme yaklaşımında değerlendirme türleri arasında amaca uygun bir denge ku -
+rulması gerektiği vurgulanmıştır. Öğrencilerin programların temel kabullerinde belirtilen bilgi ve becerileri 
+yoklamak, ilgi ve ihtiyaçlarını belirlemek amacıyla ön değerlendirme sürecine yer verilmiştir. Öğrenmeleri 
+iyileştirmek amacıyla biçimlendirici değerlendirmenin kullanılması önerilmiştir (MEB, 2025). Biçimlendirici 
+değerlendirme, öğrencilerin öğrenmeleri hakkında bilgi veya kanıt toplamayı, bunları öğrencilerin ihtiyaç -
+ları açısından yorumlamayı ve mevcut durumu değiştirmek için kullanmayı içermektedir (William, 2006). 
+TYMM öğretim programlarında “Öğrenme Kanıtları” bölümü, içerik çerçevesi ile öğrenme yaşantıları ara -
+sında konumlandırılmıştır. Böylece ölçme ve değerlendirme, öğretim sürecinin sonunda not verme odak -
+lı olmaktan çıkarılarak öğrenme-öğretme sürecinin doğal ve planlı bir bileşeni hâline getirilmiştir. Temel 
+amaç; öğrenme süreçlerinin düzenli olarak izlenmesi, öğrenme çıktılarına ilişkin kanıtların toplanmasıyla 
+--- Sayfa 11 ---
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+11
+öğrenciye güçlü ve geliştirilmesi gereken yönlerini ifade eden betimleyici geri bildirimlerin sunulmasıdır. 
+Kılavuzda sunulan bağlam temelli sorular, sadece sonuç odaklı bir başarı puanı üretmekten ziyade öğren -
+cinin bilişsel süreç bileşenlerindeki gelişimini izlemeye imkân tanımaktadır. 
+Becerilerin öğretim programlarının merkezine yerleşmesi, bu yetkinliklerin edinim düzeylerinin geçerli, 
+güvenilir ve sistematik biçimde ölçülmesini zorunlu kılmıştır. Buna karşın becerileri ölçmek, bilgi ve kavram 
+gibi daha yalın zihinsel bileşenleri ölçmekten daha güç bir süreçtir. Bu zorluğun temel kaynağı, becerile -
+rin çok boyutlu ve gelişimsel doğası nedeniyle gözlemlenen performansın karmaşık yapısıdır (Care & Kim, 
+2017). Bu bağlamda TYMM’de her alan için tanımlanan öğrenme çıktılarını ve süreç bileşenlerini yansıtan 
+özgün görevlerin nasıl tasarlanacağı, öğrenci performansının hangi ölçütlerle puanlanacağı ve elde edi -
+len sonuçların öğrenme-öğretme sürecine nasıl dâhil edileceği gibi sorular değerlendirmenin en önemli 
+başlıklarıdır. Bu kapsamda öğretim programlarının öğrenme kanıtları başlığı altında her öğrenme çıktısına 
+yönelik en az bir ölçme ve değerlendirme aracına yer verilmiştir. Bu araçlar öğrenme-öğretme sürecinin 
+doğal bir parçası olarak yapılandırılmış, öğrencilerin farklı öğrenme biçimleri ve bireysel özellikleri dikka -
+te alınarak çeşitlendirilmiştir. Ayrıca her ünite, tema veya öğrenme alanı için en az bir performans görevi 
+verilmesi ve bu görevlerin, ölçütlerin ayrıntılı olarak belirlendiği değerlendirme araçlarıyla izlenmesi esas 
+alınmıştır.
+Türkiye’de Liselere Geçiş Sistemi (LGS) ve Yükseköğretim Kurumları Sınavı (YKS) gibi belirleyici sınavlar; 
+katılımcı sayısının fazlalığı, puanlamada nesnellik, adillik, kullanışlılık gibi gerekçelerle çoktan seçmeli so -
+rulara dayanmaktadır. Öğrenme çıktılarının çoktan seçmeli sorularla nasıl ölçüleceği bu noktada önem 
+kazanmaktadır. Örneğin yorumlama, karşılaştırma gibi becerilerden oluşan öğren  me çıktılarının çoktan 
+seçmeli soru formatı ile ölçülmesi görece daha kolay olduğu hâlde problem çözme, sorgulama, eleştirel 
+düşünme gibi daha karmaşık becerilerin ölçülmesi zordur. 
+2.2. BİLGİ VE BECERİ NEDİR?
+Bilginin edinimi veya öğrenimi, eğitim süreçlerinin ve günlük yaşamın vazgeçilmez bir parçasıdır. Türkiye 
+Yeterlikler Çerçevesi (TYÇ) kapsamında “bilgi”; bir çalışma veya öğrenme alanı ile ilgili gerçeklerin, ilkelerin, 
+teorilerin ve uygulamaların anlaşılmasını içeren kuramsal ve/veya olgusal bilgi olarak tanımlanmıştır (TYÇ, 
+2020). Psikolojide “bildirime dayalı bilgi” (declarative knowledge) olarak adlandırılan bu kavram, zihinde or -
+ganize edilmesi gereken ve içeriğe bağlı bir yapı olarak görülür.
+Winterton vd.ne (2006) göre “nedenini bilmek” ile “ne olduğunu bilmek” arasında ayrım yapılabilir. Nedenini 
+bilmek (know-how) genellikle örtük bilgiyle, ne olduğunu bilmek (know-that) ise önerme bilgisiyle ilişkilen -
+dirilir. Bu durum, bildirimsel bilgi (ne olduğunu bilmek) ile işlemsel bilgi (nasıl olduğunu bilmek) arasındaki 
+ayrımda yansıtılır. Bu bakış açısıyla bildirimsel bilgi ediniminin bilgiyi bağlam içerisinde kullanmayı gerek -
+tiren işlemsel bilginin gelişiminden önce gerçekleşmesi gerektiği sıklıkla savunulur (Winterton vd., 2006). 
+Kısacası bilgi, bireyin bir öğrenme alanına ilişkin gerçekleri, kavramları, ilkeleri, kuramları ve uygulamaları 
+zihinsel olarak yapılandırması ve anlamlandırması yoluyla edindiği bilişsel içeriktir. Ölçme ve değerlendir -
+me bağlamında bilgi; bireyin bir alana ilişkin kavramları, tanımları, gerçekleri ve ilkeleri tanıyabilmesi, hatır -
+layabilmesi, ayırt edebilmesi ve açıklayabilmesi yoluyla ortaya çıkan bilişsel çıktıdır.
+Modern eğitim anlayışında bilginin sadece “edinilmesi” değil aynı zamanda “kullanılması” da ön plana çık -
+mıştır. Bilgi, becerinin ön koşulu olmakla birlikte tek başına yeterli değildir; bilginin anlamlı ve işlevsel hâle 
+gelmesi, onun bağlam içinde kullanılmasını sağlayan beceriler yoluyla mümkündür. Bu aşamada “bilgiyi 
+kullanma” boyutu, doğal olarak beceri kavramıyla ilişkilendirilir. Bilgi, beceriyi besleyen bir kaynak olmakla 
+birlikte beceriler, bilginin performans yoluyla görünür hâle geldiği ve somut ürünlere dönüştüğü alandır.
+--- Sayfa 12 ---
+TÜRKİYE YÜZYILI MAARİF MODELİ BAĞLAM TEMELLİ ÇOKTAN SEÇMELİ SORU YAZIM KILAVUZU
+12
+TYÇ kapsamında “beceri”, bir çalışma veya öğrenme alanında edinilen bilgiyi kullanma ve problem çözme 
+yetisi olarak tanımlanmaktadır. Bu tanım; mantıksal, sezgisel ve yaratıcı düşünmenin yanı sıra el becerisi, 
+yöntem, materyal, araç ve gereç kullanımını da gerektirmektedir. Son zamanlarda yapılan beceri araştır -
+maları; problem çözme, karar verme gibi daha geniş bilişsel becerileri de içermektedir. Bu durum, söz ko -
+nusu bilişsel yetkinlikleri beceri değil bilgi olarak değerlendirmenin zorluğunu ortaya koymaktadır. Beceri; 
+pratik yoluyla edinilen ve az çaba ile gerçekleştirilen, hedefe yönelik, iyi organize edilmiş davranış olarak 
+tanımlanmıştır (Winterton vd., 2006).
+TYÇ; bilginin yalnızca edinilmesini ya da ezberlenmesini yeterli görmemekte, bilginin beceriyle bütünleşik 
+biçimde kullanılmasını merkeze almakta ve bu bütünleşik kullanımın performans yoluyla görünür hâle gel -
+mesini hedeflemektedir. Çünkü bilgi, zihinde tek başına “depolanan” statik bir içerik değil aksine düzenle -
+nen, örgütlenen ve öğrenme hedefleriyle ilişkilendirilen dinamik bir yapıdır. Haladyna (1992), bilginin ölçül -
+mesindeki kritik noktaya şöyle dikkat çeker: “Sadece bilgiye sahip olmak yeterli değildir, bilginin ‘kullanım 
+boyutu’ da mutlaka ölçme ve değerlendirme sürecine dâhil edilmelidir.” Haladyna’nın bilginin ölçülmesine 
+ilişkin bu anlayışı TYMM ile örtüşmektedir. TYMM’de bilgi, tek başına duran bir içerik değil becerilerin bağ -
+lamsal altyapısıdır. TYMM’nin anlayışına göre beceriden bağımsız olmayan bilgi; alanlara özgü bilgi kümeleri 
+olarak tanımlanmakta, tek başına değil becerilerle anlam kazanarak öğrenme çıktısını oluşturmaktadır. 
+2.2.1. Öğrenme Çıktılarında Bilgi ve Becerilerin Bütünleşik Yapısı
+TYMM’de karmaşık ve soyut fikirleri eyleme dönüştürme sürecinde ortaya çıkan kavramsal beceriler  ile bu 
+becerilerin derslere özgü yapılarını temsil eden alan becerileri , ilgili derse ait bilgi kümelerini temsil eden 
+içerik çerçevesi ile bütünleşerek öğrenme çıktıları nı oluşturmaktadır (TYMM, 2025).
+TYMM’nin beceri çerçevesinde yer alan kavramsal beceriler; temel beceriler (KB1), bütünleşik beceriler 
+(KB2) ve üst düzey düşünme becerileri (KB3) olmak üzere üç farklı beceri alanından oluşmaktadır.
+Temel Beceriler karmaşık bir süreç gerektirmeden edinilen, gözlenebilen eylemleri ifade eder. Saymak, 
+okumak, yazmak, çizmek, bulmak, seçmek, belirlemek, işaret etmek, ölçmek, sunmak, çevirmek, kaydet -
+mek gibi eylemler temel beceriler arasında gösterilebilir.
+Bütünleşik beceriler, süreç modellemesi yapılabilen eylemleri ifade eder. TYMM öğretim programlarında 
+çelişki giderme, gözlemleme, özetleme, çözümleme, sınıflandırma, bilgi toplama, karşılaştırma, sorgula -
+ma, genelleme, çıkarım yapma, gözleme dayalı tahmin etme, mevcut bilgiye/veriye dayalı tahmin etme, 
+yapılandırma, yorumlama, yansıtma, muhakeme (akıl yürütme), değerlendirme, tartışma, mantıksal denet -
+leme ve sentezleme olmak üzere yirmi bütünleşik beceri tanımlanmıştır.
+Üst düzey düşünme becerileri ise bütünleşik becerilerin en az ikisini içeren ve çok boyutlu zihinsel süreçler 
+gerektiren eylemleri ifade eder. Kavramsal becerilerde temel ve bütünleşik beceriler arasında aşamalı bir 
+ilişki bulunmamaktadır. Bu beceriler, üst düzey düşünme becerilerinin hayata geçirilmesindeki altyapıyı 
